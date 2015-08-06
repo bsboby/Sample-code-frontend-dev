@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 768px) and (max-width: 1024px),(max-width: 767px),(min-width: 480px) and (max-width: 767px),(max-width: 479px)
+ {
+.wrapper{width:100%; margin:auto;}
+.main{width:100%; margin:auto; padding-left:32px; padding-right:32px;}
+.navbar-collapse{box-shadow:none !important;}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{border:none;}
+.mobile-con, .study{min-height:inherit !important;}
+.cloth-design{width:100%;}
+.case-study{width:100%;}
+.design{padding-left:32px;}
+.case-con{padding-right:32px;}
+.design-img img{width:100%;}
+
+
+ }
+ 

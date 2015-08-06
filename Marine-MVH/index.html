@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="shortcut icon" href="images/fevicon.ico"/>
+<meta name="viewport" content="initial-scale=1,minimum-scale=1,width=device-width">
+<title>Marine</title>
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/responsive.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" type="text/css" href="css/comment.css" />
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+  <ul class="main">
+    <li><a href="index.html">Home</a></li>
+    <li><span>Case studies</span>
+      <ul class="dd">
+        <li><a href="#">Murmure</a></li>
+        <li><a href="#">Dg engineering</a></li>
+        <li><a href="#">Upperdeck</a></li>
+        <li><a href="#">Poisson</a></li>
+        <li><a href="linkthree.html">Linkthree</a></li>
+        <li><a href="#">Constructr</a></li>
+        <li><a href="#">Mona Lisa</a></li>
+        <li><a href="#">Ebs</a></li>
+        <li><a href="#">Perrier</a></li>
+        <li><a href="#">Vittel</a></li>
+        <li><a href="#">Yves_St_Laurent</a></li>
+        <li><a href="#">Gourmet Food Collection</a></li>
+        <li><a href="#">Microsoft</a></li>
+      </ul>
+    </li>
+    <li><a href="about.html">about</a></li>
+    <li><a href="#" id="contact">contact</a></li>
+  </ul>
+</nav>
+ <div class="logo left">
+      <h1> <a href="index.html"></a> </h1>
+    </div>
+<div class="wrapper">
+    
+    <section class="right"> 
+      <!-- Class "cbp-spmenu-open" gets applied to menu -->
+      <button id="showLeft" style="display:none;"></button>
+      <button id="showRight" class="toggle-icon toggle-icon2"></button>
+      <button id="showTop" style="display:none;"></button>
+      <button id="showBottom" style="display:none;"></button>
+    </section>
+    <div class="clr"></div>
+  </div>
+
+<header>
+  <div class="wrapper">
+    <div class="latest home-latest" id="home-latest-show"> <span>latest case study</span>
+      <h3>Murmure...</h3>
+      <p>New lingerie boutique in Brussels </p>
+      <div class="see-more"> <a href="#" class="see-more-btn"> SEE MORE </a> </div>
+    </div>
+  </div>
+</header>
+
+<div class="after_header"></div>
+
+<div class="parallax1 main-container" id="phase_1"><!--parallax1-->
+<div class="wrapper">
+  <div class="present"> <span class="head">presented by</span>
+    <h3>MAKE.VISION.HAPPEN</h3>
+    <p>Reaching out and capturing what the <span>client envisions </span>for his new product, image branding, marketing goals... and<span> making it come to life</span> by creating simple, beautiful designs which gives a <span>great brand/ user experience </span>is what I love to do. 
+      I am Marine, a pretty good <span>graphic, web & mobile designer</span> ready to <span>make your vision</span> come to life !</p>
+    <div class="see-more"> <a href="about.html" class="learn-more-btn"> learn more </a> </div>
+  </div>
+</div>
+</div><!--/parallax1-->
+
+<a href="linkthree.html" class="hoverlink">
+<div class="three-link">
+ <div class="overlay-bg">
+  <div class="wrapper">
+    <div class="works">
+      <h2>Linkthree</h2>
+      <span>Web design</span> </div>
+  </div>
+  </div>
+</div>
+</a>
+<a href="#" class="hoverlink">
+<div class="monalisa">
+ <div class="overlay-bg">
+  <div class="wrapper">
+    <div class="works">
+      <h2>mona lisa</h2>
+      <span>Responsive web design</span> </div>
+  </div>
+  </div>
+</div>
+</a>
+<a href="#" class="hoverlink">
+<div class="skil">
+ <div class="overlay-bg">
+  <div class="wrapper">
+    <div class="works">
+      <h2>skills for growth</h2>
+      <span>Identity & Print</span> </div>
+  </div>
+  </div>
+</div>
+</a>
+<a href="#" class="hoverlink">
+<div class="club">
+<div class="overlay-bg">
+  <div class="wrapper">
+    <div class="works">
+      <h2>fresh club</h2>
+      <span>Print & Icons</span> </div>
+  </div>
+  </div>
+</div>
+</a>
+<a href="#" class="hoverlink">
+<div class="cunst">
+<div class="overlay-bg">
+  <div class="wrapper">
+    <div class="works">
+      <h2>constructr</h2>
+      <span>Responsive web design & Identity</span> </div>
+  </div>
+  </div>
+</div>
+</a>
+<div class="footer" id="contact_info">
+  <ul>
+    <li><a href="#" class="social1">behance</a></li>
+    <li><a href="#" class="social2">Linkedin</a></li>
+    <li><a href="#" class="social3">facebook</a></li>
+    <li><a href="#" class="social4">pinterest</a></li>
+    <div class="clr"></div>
+  </ul>
+</div>
+
+
+<div id="hlfoot" class="latest home-latest footer"> <span>latest case study</span>
+      <h3>Murmure...</h3>
+      <p>New lingerie boutique in Brussels </p>
+      <div class="see-more"> <a href="#" class="see-more-btn"> SEE MORE </a> </div>
+    </div>
+
+<script type="text/javascript">
+(function($){
+	$(document).ready(function() {
+		$('#showRight').click(function(e){
+			if($(this).hasClass('active')){
+				$('#cbp-spmenu-s2').removeClass('cbp-spmenu-open');
+				$(this).hide().removeClass('active').delay(250).fadeIn();
+			} else {
+				$('#cbp-spmenu-s2').addClass('cbp-spmenu-open');
+				$(this).hide().delay(250).fadeIn().addClass('active');
+			}
+		});
+	});
+		
+	$(window).on('scroll', function(){
+		if ($(window).scrollTop() > 30) {
+			$('.after_header' ).css({ opacity: 0.6 });			
+			$('#hlfoot').hide();
+		} else {
+		  $( '.after_header' ).animate({ opacity: 0.00 }, 10, function(){
+			});
+		$('#hlfoot').show();
+		}
+		
+		phase1();
+		phase2();				
+	});
+	
+		$(window).on('scroll', function(){
+		if ($(window).scrollTop() > 30) {
+			$('.after_header' ).css({ opacity: 0.6 });			
+			$('#home-latest-show').show();
+		} else {
+		  $( '.after_header' ).animate({ opacity: 0.00 }, 10, function(){
+			});
+		$('#home-latest-show').hide();
+		}
+		
+		phase1();
+		phase2();				
+	});
+	
+	function afterheader(){
+		var header_heigth = $('header').height();
+		$(".after_header").css({height: header_heigth });
+	}
+	
+	function phase1(){
+		var pheight = $('#phase_1').prevAll().height();
+		var lheight = $('.logo').height();
+		var poneh = pheight - lheight;
+		
+		if ($(window).scrollTop() > poneh) {
+			$('.logo').addClass('po_active');
+			$('.toggle-icon').addClass('po_active');			
+		} else if ($(window).scrollTop() < poneh){
+			$('.logo').removeClass('po_active');			
+			$('.toggle-icon').removeClass('po_active');								
+		}
+	}
+	
+	function phase2(){
+		var pheight = $('#phase_1').prevAll().height();
+		var lheight = $('.logo').height();
+		var pone_h = $('#phase_1').height();
+		var p2hi = pheight + pone_h - lheight;
+
+		if ($(window).scrollTop() > p2hi) {
+			$('.logo').addClass('pt_active');
+			$('.toggle-icon').addClass('pt_active');
+		} else if ($(window).scrollTop() < p2hi){
+			$('.logo').removeClass('pt_active');	
+			$('.toggle-icon').removeClass('pt_active');					
+		}
+	}
+		
+	$(window).on('load', function () {
+		afterheader();
+		phase1();
+		phase2();		
+	});
+	
+	$(window).resize(function(){
+		afterheader();		
+		phase1();
+		phase2();		
+	});
+	
+	// scroll	
+	var contactinfo = $('#contact_info').offset().top;	
+	$('#contact').click(function(){
+		$('html, body').animate({scrollTop:contactinfo}, 2500);
+		$('#cbp-spmenu-s2').removeClass('cbp-spmenu-open');
+		$('#showRight').hide().removeClass('active').delay(250).fadeIn();
+		return false;
+	});
+	
+	
+})(jQuery);
+</script>
+
+
+</body>
+</html>

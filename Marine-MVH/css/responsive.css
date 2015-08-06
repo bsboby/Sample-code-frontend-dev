@@ -1,0 +1,460 @@
+
+@media only screen and (min-width:641px) and (max-width:768px) {
+	
+header{background-position:top center; }
+.logo{top:16px; left:45px;}
+section.right{top:35px; margin:0; right:45px;}
+.after_header{display:none;}
+#hlfoot{top:200px; display:block !important; position:absolute; }
+#home-latest-show{display:none !important;}
+.latest h3{margin-top:44px; margin-bottom:4px;}
+.home-latest .see-more{margin-top:60px;}
+.head{margin-top:48px;}
+.present h3{margin-top:32px;}
+.works span{font-size:20px;}
+.three-link, .monalisa, .skil, .club, .cunst{height:300px;}
+.works h2{margin-bottom:30px;}
+.overlay-bg{height:100%;}
+.present p{width:100%;}
+.present .see-more{margin-bottom:17px;}
+.toggle-icon{margin:0; padding:0;}
+.job{background:url(../images/job-bg768.png) 0 0 no-repeat; background-size:cover; background-position:right center; height:600px;}
+.about-us-banner{background:url(../images/about-banner640.png) 0 0 no-repeat; background-size:cover; background-position:center center;}
+.link-three-banner{background:url(../images/link-three-banner640.png) 0 0 no-repeat; background-size:cover; background-position:center center; padding:35px 0;}
+.contact-num{width:100%}
+.contact-num ul{width:50%;}
+
+.contact-num ul li{text-align:center; width:100%; margin:12px 0;}
+.see-more{width:80%;}
+.contact-num span:last-child{font-size:18px !important; letter-spacing:0.1em;} 
+.number{font-size:18px !important; letter-spacing:0.1em;} 
+.contact-num span{width:50%;}
+#about-us-page  .present .see-more{display:none;} 
+.ab-job .see-more .see-more-btn, .ab-latest .see-more .see-more-btn{padding:14px 40px; border-radius:50px; font-size:14px;}
+.testimonial{min-height:inherit; background-size:100% 100%; padding-bottom:10%;}
+
+.detail ul li{width:100%; float:none; text-align:center; margin:20px 0; font-size:22px;}
+.detail ul li span{display:block; font-size:18px;}
+.detail ul{padding-bottom:30px;}
+.project{width:90%;}
+.ipad-apple, .building{float:none !important; width:100%; text-align:center;}
+.ipad-apple img, .building img{float:none; margin-bottom:-5px;}
+.testimonial ul{width:90%;}
+
+header{height:600px; background:url(../images/header-bg768.jpg) 0 0 no-repeat;  position:inherit !important; height:600px;}
+.about-us-banner{background:url(../images/about-banner768.png) 0 0 no-repeat;  height:600px;}
+.toggle-icon2.active{right:232px;}
+.present{padding:9px 0; width:90%;}
+.footer ul li{width:25%;}
+.about-us-banner .latest{width:100%;}
+.latest h3{font-size:50px; letter-spacing:0.2em;}
+.latest p{letter-spacing:0.025em;}
+.about-us-banner .see-more{display:none;}
+
+.toggle-icon2.active:hover{width:24px; height:24px;}
+.toggle-icon.po_active:hover {
+    background: url(../images/menu-icon-bl.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.toggle-icon:hover {
+    background: url(../images/menu-icon.png) no-repeat scroll 0 0 rgba(0, 0, 0, 0);}
+
+.provide{padding-left:50px; padding-right:50px; width:100%; margin-top:52px;}
+.clients ul li{width:33.33%;}
+#about-us-page #hlfoot{top:173px;}
+#about-us-page #hlfoot h3{line-height:50px; margin-bottom:16px;}
+.no-mar{margin-top:0 !important;}
+.about-us h4{margin-bottom:24px;}
+.provide h3{margin-bottom:24px;}
+.clients ul li{margin-bottom:12px;}
+.clients{padding-bottom:20px;}
+.ab-job h3{margin-top:94px; line-height:60px; margin-bottom:10px;}
+.ab-job .see-more{margin-top:47px;}
+.ab-job .see-more .see-more-btn{padding:12px 36px; opacity:0.5;}
+.num, .email-main{padding-top:31px; padding-bottom:20px;}
+
+
+#linkthree-page #hlfoot.lt-latest{top:64px;}
+
+.link-three-banner{background:url(../images/link-three-banner768.png) 0 0 no-repeat;}
+#linkthree-page .see-more{margin-top:58px;}
+#linkthree-page .see-more-btn{opacity:0.5; border-color:#fff; padding:11px 27px;}
+#linkthree-page .detail ul{width:90%; margin:auto;}
+#linkthree-page .detail ul li{width:50%; float:left; font-size:14px; text-align:left; margin-top:4px; margin-bottom:32px;}
+#linkthree-page .detail ul li span{font-size:16px; display:inline-block;}
+#linkthree-page .detail br{display:none;}
+#linkthree-page .detail{margin-bottom:21px;}
+
+.study, .demo-img{display:none;}
+.study-res, .demo-img-res{display:none;}
+.study-ipad{display:block;}
+.demo-img-ipad{display:block;}
+.demo-img-ipad{margin-top:86px;}
+.full-wrap{width:100% !important;}
+.main-container .project{margin-top:5px; }
+.main-container .project h5{margin-bottom:26px;}
+.main-container .project h4{margin-bottom:52px;}
+.ipad-apple{margin-top:14px;}
+.building img{height:602px;}
+.space-rem{padding-bottom:66px;}
+.testimonial{height:400px; background:url(../images/tetsti-bg-768.png) 0 0 no-repeat;}
+.testimonial ul{width:85%; text-align:center; padding-top:137px;}
+.page-arrow ul li{padding-top:20px;}
+.name{margin-top:49px;}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 569px) {
+.footer ul li{width:50%;}
+header{background-position:top center;}
+.works{padding:45px 0 78px 0;}
+.clients ul li{width:50%;}
+}
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+.footer ul li{width:50%;}
+header{background-position:top center;}	
+.latest h3{font-size:28px;}	
+.works{padding:45px 0 78px 0;}
+.clients ul li{width:50%;}
+}
+
+@media only screen and (min-width: 100px) and (max-width: 319px) {
+.footer ul li{width:50%;}
+header{background-position:top center;}
+.latest h3{font-size:28px;}	
+.works{padding:45px 0 78px 0;}
+.clients ul li{width:100%;}
+.right-off-canvas-menu .off-canvas-nav-button{left:18%;}
+.dd li a{font-size:16px !important;}
+.present h3{font-size:20px; letter-spacing:0.9px;}
+.works h2{font-size:34px;}
+.works span{line-height:28px;}
+.see-more-btn{padding:10px 30px;}
+.contact-num span{width:100%; text-align:left; margin:2px 0; padding-left:20px;}
+.toggle-icon2.active{right:200px;}
+} 
+
+
+ @media only screen and (min-width: 480px) and (max-width: 569px), (min-width: 320px) and (max-width: 479px), (min-width: 100px) and (max-width: 319px){
+section.right-small{right:0;} 
+.logo{width:auto; text-align:center;}
+.logo h1{padding:10px;}
+/*.logo:hover{background-color: rgba(71, 255, 119, 0.2);}*/
+.latest{width:95%;}
+.present p{font-size:22px;}
+.present p span{font-size:28px;}
+.see-more{width:100%;}
+.ab-latest .see-more{display:block; margin-top:30%}
+.job{background-position:right top!important;}
+.provide{width:98%}
+.latest h3{letter-spacing:2px;}
+.job{background:url(../images/job-bg640.png) 0 0 no-repeat; background-size:cover; background-position:right center; padding-bottom:5%;}
+.about-us-banner{background:url(../images/about-banner640.png) 0 0 no-repeat; background-size:cover; background-position:center center;}
+.link-three-banner{background:url(../images/link-three-banner640.png) 0 0 no-repeat; background-size:cover; background-position:center center;}
+.contact-num ul, .contact-num ul li{text-align:center; width:100%;}
+.contact-num ul li{margin:12px 0;}
+
+.contact-num span:last-child{font-size:22px !important;} 
+
+.ab-job .see-more .see-more-btn, .ab-latest .see-more .see-more-btn{border-color:#fff; color:#fff; padding:20px 30px; border-radius:50px; font-size:16px; opacity:1;}
+.testimonial{min-height:inherit; background-size:100% 100%; padding-bottom:20%;}
+
+.detail ul li{width:100%; float:none; text-align:center; margin:20px 0; font-size:22px;}
+.detail ul li span{display:block; font-size:18px;}
+.detail ul{padding-bottom:30px;}
+.project{width:90%;}
+.page-next{display:none;}
+
+.ipad-apple, .building{float:none !important; width:100%; text-align:center;}
+.ipad-apple img, .building img{float:none; margin-bottom:-5px;}
+.testimonial ul{width:90%;}
+ header{height:100%;}
+}
+
+
+
+@media only screen and (min-width: 321px) and (max-width: 640px) {
+
+	.logo{left:31px;}
+	.logo h1 a{background:url(../images/logo-res-ls.png) no-repeat; height:80px; width:80px; }
+	.logo h1 a:hover{background:url(../images/logo-res-ls.png) 0 -80px no-repeat; height:80px; width:80px; }
+	.toggle-icon{background:url(../images/menu-icon-res-ls.png) no-repeat; width:42px; height:32px;}
+	.toggle-icon:hover{background:url(../images/menu-icon-res-ls.png)0 0px no-repeat; width:42px; height:32px;}
+	 section.right{right:8px; top:45px;}
+	#hlfoot{top:262px; display:block !important; position:absolute;}
+	.home-latest{padding-top:262px; width:100%;}
+	.latest h3{margin-top:51px; font-size:52px; line-height:48px; margin-bottom:14px;}
+	.see-more{margin-top:120px;}
+	 header{background:url(../images/header-bg-res-ls.jpg)0  0 no-repeat; height:700px; position:inherit;}
+	.latest span{font-size:18px;}
+	.latest p{font-size:22px;}
+	.see-more-btn{font-size:16px;padding:15px 52px; border-radius:24px;} 
+	.after_header{display:none;}
+	.parallax1{margin-top:0px;}
+	.head{font-size:18px; margin-top:54px;}
+	.present h3{font-size:30px; margin-bottom:62px;}
+	.present{width:100%; padding:0 30px; padding-bottom:55px;}
+	.wrapper{width:100% !important;}
+	.present p{width:100%; font-size:22px;}
+	.present p span{font-size:28px;}
+	.learn-more-btn{font-size:16px; padding:15px 42px; border-radius:24px; line-height:16px;}
+	.present .see-more{margin-top:28px;}
+	.works{padding:136px 0 156px 0;}
+	.works h2{font-size:42px; letter-spacing:0.15em;}
+	.works span{font-size:22px;}
+	.works h2{margin-bottom:35px;}
+	.three-link{background:url(../images/linkthree-res-ls.png) center center no-repeat; height:400px;}
+	.monalisa{background:url(../images/monalisa-res-ls.png) center center no-repeat; height:400px;}
+	.skil{background:url(../images/skills-res-ls.png) center center no-repeat; height:400px;}
+	.club{background:url(../images/club-res-ls.png) center center no-repeat; height:400px;}
+	.cunst{background:url(../images/constructr-res-ls.png) center center no-repeat; height:400px;}
+	.footer ul li{width:50%;}
+	.footer ul li a{font-family: 'ProximaNova-Bold';}
+	
+	/********************about-page**************************/
+	
+	.about-us-banner{background:url(../images/about-banner640-ls.png) center center no-repeat; height:701px;}
+	.ab-latest h3{font-size:52px; width:80%; margin:auto; line-height:60px; margin-bottom:10px;}
+	#about-us-page #hlfoot{top:263px;}
+	.ab-latest{padding-top:253px;}
+	.ab-latest .see-more{margin-top:117px;}
+	.ab-job .see-more .see-more-btn, .ab-latest .see-more .see-more-btn{padding:15px 52px; border-radius:24px;}
+	.ab-latest .see-more .see-more-btn {display:none;}
+	#about-us-page .head{margin-top:61px;}
+	#about-us-page .see-more .learn-more-btn{display:inline;}
+	#about-us-page .present{padding-bottom:56px;}
+	.clients{padding-bottom:76px;}
+	#about-us-page .clients h5{font-size:18px; margin-bottom:12px;}
+	.height-ex{display:none;}
+	.about-us{padding:55px 0 98px 0;}
+	.provide{margin-top:58px; width:100%; padding-left:30px; padding-right:30px; padding-bottom:18px;}
+	.provide h3{margin-bottom:29px; padding-top:3px;}
+	.provide p{font-size:22px;}
+	.provide p span{font-size:28px;}
+	.clients ul li{width:50%;}
+	.job{background:url(../images/job-bg640-ls.png) center center no-repeat; height:700px;}
+	.ab-job h3{font-size:50px; line-height:60px; margin-bottom:19px;}
+	.ab-job{padding-top:177px;}
+	.ab-job p{font-size:20px;}
+	.ab-job .see-more .see-more-btn{font-size:16px; padding:20px 22px; border-radius:32px;}
+	.ab-job .see-more{margin-top:83px;}
+	.contact-num ul li{width:100%;}
+	.res-hide{display:none;}
+	.contact-num span{font-size:18px;}
+	.contact-num span:last-child{font-size:22px !important;}
+	.num{padding-top:25px; padding-bottom:0;}
+	.email-main{padding-top:4px; padding-bottom:14px;}
+	.footer ul li a{font-size:18px; line-height:80px; border-right:none;}
+	.footer ul li a:hover{font-size:18px; line-height:80px;}
+	.ab-job h3{margin-top:53px;}
+	.ab-job .see-more{margin:81px;}
+	.footer ul li{height:80px; border:none;}
+	/********************project-page**************************/
+	
+	#linkthree-page #hlfoot.lt-latest{top:35px;}
+	.link-three-banner{height:700px;}
+	#linkthree-page .latest{padding-top:244px;}
+	.pre-btn, .next-btn{display:none;}
+	#linkthree-page .lt-latest h3{margin-bottom:12px;}
+	#linkthree-page .see-more{margin-top:121px;}
+	#linkthree-page .see-more-btn{padding:15px 28px; border-radius:32px; font-size:16px;}
+	.detail ul li{font-size:20px; margin-top:22px;}
+	.detail{padding-top:12px;}
+	.detail p{font-size:24px; line-height:42px;}
+	.detail p span{font-size:32px;}
+	.detail ul li span{margin-bottom:5px;}
+	.study{display:none;}
+	.study-res{display:block;}
+	.demo-img, .demo-img-ipad{display:none;}
+	.demo-img-res{display:block; text-align:right; margin-top:82px;}
+	    #linkthree-page .present{padding-bottom:54px;}
+    #linkthree-page	.project h5{font-size:18px; margin-bottom:25px;}
+	#linkthree-page .project p{font-size:22px; line-height:38px;}
+    #linkthree-page	.project p span{font-size:28px;}
+	#linkthree-page	.project{padding-bottom:90px; width:100%; padding-left:34px; padding-right:34px; padding-top:53px;}
+	.testimonial{background:url(../images/tetsti-bg-res.png) center center no-repeat; padding-bottom:0; height:500px; margin-top:11px;}
+	.testimonial ul{padding:181px 30px 0 30px; width:100%;}
+	.testimonial p{font-size:26px; text-align:center; line-height:44px;}
+	.name{margin-top:25px; font-size:18px;}
+	.toggle-icon.po_active{background:url(../images/menu-icon-bl-res-ls.png)0 0 no-repeat; width:42px; height:32px;}
+	.toggle-icon.po_active:hover{background:url(../images/menu-icon-bl-res-ls.png)0 0px no-repeat; width:42px; height:32px;}
+	.po_active h1 a{background:url(../images/logo-bl-res-ls.png) 0 0 no-repeat; width:80px; height:80px;}
+	.po_active.pt_active h1 a{background:url(../images/logo-res-ls.png) no-repeat; height:80px; width:80px; }
+	.toggle-icon.toggle-icon2.po_active.pt_active{background:url(../images/menu-icon-res-ls.png) 0 0 no-repeat; width:42px; height:32px;} 		             	 	 	 	    .toggle-icon.toggle-icon2.po_active.pt_active:hover{background:url(../images/menu-icon-res-ls.png) 0 -32px no-repeat; width:42px; height:32px;}
+	.latest.lt-latest, .latest.ab-latest{display:none !important;}
+	.ipad-apple{margin-top:25px;}
+	.building img{width:auto; max-width:none;}
+	.img{max-width:none;}
+	.ipad-apple img, .building img{margin-bottom:-2px;}
+	
+	}
+
+
+@media only screen and (max-width:320px){
+	.logo{left:15px; top:0px;}
+	.logo h1 a{background:url(../images/logo-res.png) no-repeat; height:40px; width:40px; }
+	.logo h1 a:hover{background:url(../images/logo-res.png) 0 -40px no-repeat; height:40px; width:40px; }
+	.toggle-icon{background:url(../images/menu-icon-res.png) no-repeat; width:21px; height:16px;}
+	.toggle-icon:hover{background:url(../images/menu-icon-res.png)0 0px no-repeat; width:21px; height:16px;}
+	 section.right{right:11px; top:22px;}
+	 .toggle-icon2.active{right:269px; top:1px; width:17px !important; height:17px !important;}
+	 .toggle-icon2.active:hover{height:24px;}
+	 .button, button{ padding: 0.5rem 1rem 0.09em 0.5rem;}
+	#hlfoot{top:124px; display:block !important; position:absolute; }
+	#home-latest-show{display:none !important;}
+	.home-latest{padding-top:124px; width:100%;}
+	.latest h3{margin-top:25px; font-size:26px; line-height:24px; margin-bottom:7px; letter-spacing:5px;}
+	.see-more{margin-top:33px;}
+	 header{background:url(../images/header-bg-res.jpg)0  0 no-repeat; height:350px; position:inherit;}
+	.latest span{font-size:9px;}
+	.latest p{font-size:11px;}
+	.see-more-btn{font-size:8px;padding:7px 26px; border-radius:12px; color:#fff; border-color:#fff; opacity:0.4; border-width:1px;}  
+	.after_header{display:none;}
+	.parallax1{margin-top:0px;}
+	.head{font-size:9px; margin-top:27px;}
+	.present h3{font-size:15px; margin-bottom:30px; margin-top:15px; letter-spacing:3px;}
+	.present{width:100%; padding:0 18px; padding-bottom:27px;}
+	.wrapper{width:100% !important;}
+	.present p{width:100%; font-size:11px;}
+	.present p span{font-size:14px;}
+	.learn-more-btn{font-size:8px; padding:7.5px 21px; border-radius:12px; line-height:8px; color:#9e9e9e; border-color:#949494; vertical-align:middle; border-width:1px; opacity:0.6;}
+	.present .see-more{margin-top:0px; padding:36.5px 0 20px 0;}
+	.works{padding:68px 0 76px 0;}
+	#linkthree-page .see-more-btn{opacity:0.7;}
+	.works h2{font-size:21px; letter-spacing:0.12em; margin-bottom:7px; margin-top:2px;}
+	.works span{font-size:11px; letter-spacing:0;}
+
+	.three-link{background:url(../images/linkthree-res.png) center center no-repeat; height:200px;}
+	.monalisa{background:url(../images/monalisa-res.png) center center no-repeat; height:200px;}
+	.skil{background:url(../images/skills-res.png) center center no-repeat; height:200px;}
+	.club{background:url(../images/club-res.png) center center no-repeat; height:200px;}
+	.cunst{background:url(../images/constructr-res.png) center center no-repeat; height:200px;}
+	.footer ul li{width:50%; height:41px;}
+	.footer ul li a{font-family: 'ProximaNova-Bold'; height:41px;}
+	
+	/********************about-page**************************/
+	
+	.about-us-banner{background:url(../images/about-banner640.png) center center no-repeat; height:351px;}
+	.ab-latest h3{font-size:26px; width:80%; margin:auto; line-height:30px; margin-bottom:5px;}
+	#about-us-page #hlfoot{top:132px;}
+	.ab-latest{padding-top:126px;}
+	#about-us-page .ab-latest .see-more{margin-top:32.5px;}
+	.ab-job .see-more .see-more-btn, .ab-latest .see-more .see-more-btn{padding:7px 26px; border-radius:12px; font-size:8px; border:1px solid #fff;}
+	.ab-latest .see-more .see-more-btn {display:none;}
+	#about-us-page .head{margin-top:30px; letter-spacing:0px;}
+	#about-us-page .see-more .learn-more-btn{display:inline;}
+	#about-us-page .present{padding-bottom:28px;}
+	.clients{padding-bottom:26px; padding-top:30px;}
+	#about-us-page .clients h5{font-size:9px; margin-bottom:6px; letter-spacing:0;}
+	.clients ul li img{max-width:68%;}
+	.height-ex{display:none;}
+	.about-us{padding:27px 0 49px 0;}
+	.provide{margin-top:24px; width:100%; padding-left:15px; padding-right:15px; padding-bottom:9px;}
+	.provide h3{margin-bottom:15px; padding-top:1px; font-size:15px; letter-spacing:2px;}
+	.provide p{font-size:11px; line-height:20px;}
+	.about-us h4{font-size:9px; letter-spacing:0; margin-bottom:28px;}
+	#about-us-page .learn-more-btn{border-width:1px;}
+	#about-us-page .present .see-more{padding-top:32.5px !important; }
+	.provide p span{font-size:14px;}
+	.clients ul li{width:50%;}
+	.job{background:url(../images/job-bg640.png) center center no-repeat; height:351px;}
+	.ab-job h3{font-size:25px; line-height:30px; margin-bottom:10px;}
+	.ab-job{padding-top:89px;}
+	.ab-job p{font-size:10px;}
+	.ab-job .see-more .see-more-btn{font-size:8px; padding:10px 11px; border-radius:16px; opacity:0.5;}
+	.ab-job .see-more{margin-top:41px;}
+	.contact-num ul li{width:100%;}
+	.res-hide{display:none;}
+	.contact-num span{font-size:9px; letter-spacing:1px;}
+	.contact-num span:last-child{font-size:11px !important;}
+	.number{font-size:11px !important; } 
+	.num{padding-top:8px; padding-bottom:0;}
+	.email-main{padding-top:0px; padding-bottom:2px;}
+	.email-main li{margin-top:0px !important;}
+	.num li{margin-bottom:12px !important}
+	.footer ul li a{font-size:9px; line-height:40px; border-right:none;}
+	.footer ul li a:hover{font-size:9px; line-height:40px;}
+	.ab-job h3{margin-top:26px;}
+	.ab-job .see-more{margin-top:13px; margin-left:0;}
+	.footer ul li{height:40px; border:none;}
+	/********************project-page**************************/
+	.link-three-banner{background:url(../images/link-three-banner640.png) 0 0 no-repeat; height:351px;}
+	#linkthree-page #hlfoot.lt-latest{top:18px;}
+	
+	#linkthree-page .latest{padding-top:122px;}
+	.pre-btn, .next-btn{display:none;}
+	#linkthree-page .lt-latest h3{margin-bottom:7px;}
+	#linkthree-page .see-more{margin-top:30px;}
+	#linkthree-page .see-more-btn{padding:7px 14px; border-radius:16px; font-size:8px; border-width:1px;}
+	.detail ul li{font-size:10px; margin:10px 0 11px 0; letter-spacing:1px !important;}
+	.detail{padding-top:6px;}
+	.detail p{font-size:12px; line-height:21px; letter-spacing:1px;}
+	.detail p span{font-size:16px;}
+	#linkthree-page .lt-latest p{margin-bottom:33px;}
+	.detail ul{padding-bottom:15px;}
+	.detail ul li span{margin-bottom:3.5px; font-size:9px;}
+	.study{display:none;}
+	..study-ipad{display:none;}
+	.study-res{display:block;}
+	.demo-img{display:none;}
+	.demo-img-res{display:block; text-align:right; margin-top:38px;}
+	    #linkthree-page .present{padding-bottom:26px; padding-left:22px; padding-right:22px; }
+		
+	.demo-img-res img{width:272px; height:507px;}
+	
+    #linkthree-page	.project h5{font-size:9px; margin-bottom:14px; letter-spacing:0;}
+	#linkthree-page .project h4{font-size:11px; line-height:20px; letter-spacing:3px; margin-bottom:28px;}
+	#linkthree-page .project p{font-size:11px; line-height:19px;}
+	.ipad-apple img{width:232px; height:244px;}
+	.building img {width:320px; height:250px;}
+    #linkthree-page	.project p span{font-size:14px;}
+	#linkthree-page	.project{padding-bottom:45px; width:100%; padding-left:17px; padding-right:17px; padding-top:26px;}
+	.testimonial{background:url(../images/tetsti-bg-res.png) center center no-repeat; padding-bottom:0; height:250px; margin-top:9px;}
+	.testimonial ul{padding:90px 15px 0 15px; width:100%;}
+	.testimonial p{font-size:13px; text-align:center; line-height:22px;}
+	.name{margin-top:12px; font-size:9px;}
+	
+	.toggle-icon.po_active{background:url(../images/menu-icon-bl-res.png)0 0 no-repeat; width:21px; height:16px;}
+	.toggle-icon.po_active:hover{background:url(../images/menu-icon-bl-res.png)0 0px no-repeat; width:21px; height:16px;}
+	.po_active h1 a{background:url(../images/logo-bl-res.png) 0 0 no-repeat; width:40px; height:40px;}
+	.po_active.pt_active h1 a{background:url(../images/logo-res.png) no-repeat; height:40px; width:40px; }
+	.toggle-icon.toggle-icon2.po_active.pt_active{background:url(../images/menu-icon-res.png) 0 0 no-repeat; width:21px; height:16px;} 		             	 	 	 	    
+	.toggle-icon.toggle-icon2.po_active.pt_active:hover{background:url(../images/menu-icon-res.png) 0 -0px no-repeat; width:21px; height:16px;}
+	.toggle-icon2.active{background:url(../images/ic_cross.png) 0 0 no-repeat !important; background-size:16px 16px !important; }
+	.latest.lt-latest, .latest.ab-latest{display:none !important;}
+	.ipad-apple{margin-top:25px;}
+	.building img{width:auto; max-width:none;}
+	.img{max-width:none;}
+	.ipad-apple img, .building img{margin-bottom:-2px;}
+     	.testimonial ul{padding-top:92px;} 	
+		
+		.page-arrow{height:50px;}
+		.page-arrow ul{top:0; padding:0 13px;}
+		.page-arrow ul li{padding-top:13px;}
+		.page-arrow ul li a img{width:7.5px; height:12.5px;}
+		.cbp-spmenu-vertical{width:320px !important;}
+		
+		
+		.main li a{font-size:9px !important;}
+		
+		.main li span{font-size:8px !important;}
+		.dd li a{font-size:11px !important;}	
+		.main li{margin-bottom:12px;}
+		.main{margin-top:49px;}
+		.dd{margin-top:2px; margin-bottom:12px;}
+		.dd li{margin-bottom:1px !important;}
+		}
+
+@media only screen and (max-width:480px) {
+	
+	
+	.logo{ z-index:999;}
+	.logo h1{padding-left:0; padding-right:0;}
+	.works span{line-height:28px;}
+	.works h2{font-size:20px ;}
+	.contact-num{width:100%}
+	.contact-num span{width:50%;}
+
+	}

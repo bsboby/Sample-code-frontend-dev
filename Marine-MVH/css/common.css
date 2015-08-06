@@ -1,0 +1,4 @@
+
+ @media only screen and (min-width: 768px) and (max-width: 1240px), (min-width: 570px) and (max-width: 767px), (min-width: 480px) and (max-width: 569px), (min-width: 320px) and (max-width: 479px), (min-width: 100px) and (max-width: 319px){
+	 .wrapper{width:98%; margin:auto;} 
+ }
