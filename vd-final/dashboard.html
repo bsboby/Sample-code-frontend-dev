@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  <title>Vendanza</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/font-iocn.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel='stylesheet' type='text/css' href='css/immybox.css'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <script src="https://twitter.github.io/typeahead.js/js/jquery-1.10.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <script src='http://www.jqueryscript.net/demo/Easy-jQuery-Autocomplet-Plugin-with-Character-Highlight-Support-immybox/jquery.immybox.min.js'></script>
+  
+  
+  <script type='text/javascript'>
+      $(function() {
+
+        // simple example
+        $('#input1').immybox({
+          choices: [
+            {text: 'Abu Dhabi', value: 'AD'},
+            {text: 'Dubai', value: 'DH'},
+            {text: 'Sharjah', value: 'SH'},
+            {text: 'Arkansas', value: 'AR'},
+            {text: 'California', value: 'CA'},
+            {text: 'Colorado', value: 'CO'},
+            {text: 'Connecticut', value: 'CT'},
+            {text: 'Delaware', value: 'DE'},
+            {text: 'Florida', value: 'FL'},
+            {text: 'Georgia', value: 'GA'},
+            {text: 'Hawaii', value: 'HI'},
+            {text: 'Idaho', value: 'ID'},
+            {text: 'Illinois', value: 'IL'},
+            {text: 'Indiana', value: 'IN'},
+            {text: 'Iowa', value: 'IA'},
+            {text: 'Kansas', value: 'KS'},
+            {text: 'Kentucky', value: 'KY'},
+            {text: 'Louisiana', value: 'LA'},
+            {text: 'Maine', value: 'ME'},
+            {text: 'Maryland', value: 'MD'},
+            {text: 'Massachusetts', value: 'MA'},
+            {text: 'Michigan', value: 'MI'},
+            {text: 'Minnesota', value: 'MN'},
+            {text: 'Mississippi', value: 'MS'},
+            {text: 'Missouri', value: 'MO'},
+            {text: 'Montana', value: 'MT'},
+            {text: 'Nebraska', value: 'NE'},
+            {text: 'Nevada', value: 'NV'},
+            {text: 'New Hampshire', value: 'NH'},
+            {text: 'New Jersey', value: 'NJ'},
+            {text: 'New Mexico', value: 'NM'},
+            {text: 'New York', value: 'NY'},
+            {text: 'North Carolina', value: 'NC'},
+            {text: 'North Dakota', value: 'ND'},
+            {text: 'Ohio', value: 'OH'},
+            {text: 'Oklahoma', value: 'OK'},
+            {text: 'Oregon', value: 'OR'},
+            {text: 'Pennsylvania', value: 'PA'},
+            {text: 'Rhode Island', value: 'RI'},
+            {text: 'South Carolina', value: 'SC'},
+            {text: 'South Dakota', value: 'SD'},
+            {text: 'Tennessee', value: 'TN'},
+            {text: 'Texas', value: 'TX'},
+            {text: 'Utah', value: 'UT'},
+            {text: 'Vermont', value: 'VT'},
+            {text: 'Virginia', value: 'VA'},
+            {text: 'Washington', value: 'WA'},
+            {text: 'West Virginia', value: 'WV'},
+            {text: 'Wisconsin', value: 'WI'},
+            {text: 'Wyoming', value: 'WY'}
+          ],
+          defaultSelectedValue: 'LA'
+        });
+
+      });
+    </script>
+  <script type="text/javascript">
+         
+    	$(document).ready(function(){
+			$(".hide-strip").click(function(){
+			$(".top-strip").slideUp(500);
+			});
+		});
+    </script>
+  <script>
+    
+	     $(".panel-heading a").click(function() {
+			$(".panel-heading a").removeClass("active");
+			$(this).addClass("active");
+			
+			});
+			
+			
+			
+		$("#collapseSix .saved-select li a").click(function() {
+			$(".saved-select li a").removeClass("active");
+			$(this).addClass("active");
+			});	
+    
+    </script>
+     <script type="text/javascript">
+		$(document).ready(function() {
+  		$('#portfolio').mixitup({
+    	  targetSelector: '.common-div',
+   		  transitionSpeed: 450
+ 	 });
+		});
+</script>
+  <script>
+                
+		$(document).ready(function() {
+			$("#accordion1 > li > a").click(function() {
+			$(this).siblings("div").slideToggle(250);
+			$(this).toggleClass("active");
+			
+			});
+			$("#accordion2 > li > a").click(function() {
+			$(this).siblings("div").slideToggle(250);
+			$(this).toggleClass("active");
+			
+			});
+			$(".map-close a").click(function() {
+			$(".banner-map").slideToggle(500);
+			$(this).toggleClass("active");
+			});
+			$(".noti-ico").click(function() {
+			$(".dropdown-noti").slideToggle(300);
+			});
+			
+			
+			$(".lft-hvr-side a").click(function() {
+			$(this).toggleClass("add-fav-yl");
+			});
+			$("#sidebar ul.mn-nav-side li a").click(function() {
+			$("#sidebar ul.mn-nav-side li a").removeClass("sel-menu");	
+			$(this).addClass("sel-menu");
+			});
+			
+			$(".navbar-nav > li a").click(function() {
+			$(".navbar-nav > li a").removeClass("sel-menu-li");	
+			$(this).addClass("sel-menu-li");
+			});
+			
+			$(".navbar-nav > li:first-child a").click(function() {
+			$("body").removeClass("rust orange light-green green sky blue pink");	
+			$("body").addClass("red");
+			});
+			$(".navbar-nav > li:nth-child(2) a").click(function() {
+			$("body").removeClass("red orange light-green green sky blue pink");
+			$("body").addClass("rust");
+			});
+			$(".navbar-nav > li:nth-child(3) a").click(function() {
+			$("body").removeClass("red rust light-green green sky blue pink");
+			$("body").addClass("orange");
+			});
+			$(".navbar-nav > li:nth-child(4) a").click(function() {
+			$("body").removeClass("red rust orange green sky blue pink");	
+			$("body").addClass("light-green");
+			});
+			$(".navbar-nav > li:nth-child(5) a").click(function() {
+			$("body").removeClass("red rust orange light-green  sky blue pink");	
+			$("body").addClass("green");
+			});
+			$(".navbar-nav > li:nth-child(6) a").click(function() {
+			$("body").removeClass("red rust orange light-green green blue pink");
+			$("body").addClass("sky");
+			});
+			$(".navbar-nav > li:nth-child(7) a").click(function() {
+			$("body").removeClass("red rust orange light-green green sky pink");	
+			$("body").addClass("blue");
+			});
+			$(".navbar-nav > li:nth-child(8) a").click(function() {
+			$("body").removeClass("red rust orange light-green green sky blue");	
+			$("body").addClass("pink");
+			});
+			
+			$('.nav-toggle a').on('click', function() {
+			$('#content-push').addClass('isOpen');
+			$('#sidebar').show();
+			$('.fixed-ov').show(100);
+			//$(this).toggleClass('active');
+			
+			});
+			
+			$('.nav-toggle2 a').on('click', function() {
+			$('#content-push').addClass('isOpen-left');
+			$('#sidebar2').show();
+			$('.fixed-ov').show(100);
+			
+			});
+			$('.hide-left-nav a').on('click', function() {
+			$('#content-push').removeClass('isOpen-left');
+			$('#sidebar2').hide(500);
+			$('.fixed-ov').hide(100);
+			});
+			
+			
+			$('.cross-icon a').on('click', function() {
+			$('#content-push').removeClass('isOpen');
+			$('#sidebar').hide(500);
+			$('.fixed-ov').hide(100);
+			});
+			
+			
+			
+			$(".location-ac li a, .trending-ac li a").click(function() {
+			$(this).toggleClass("sel");
+			});
+			
+			
+		});
+		
+		
+
+    </script>
+ 
+  <!--price range-->
+
+  <script>
+    
+  $(function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val(  ui.values[ 0 ]+"AED - " +  ui.values[ 1 ] + "AED" );
+      }
+    });
+    $( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) +"AED - " + 
+       + $( "#slider-range").slider( "values", 1 ) + "AED" );
+  $('#slider-range').draggable();
+  
+  
+  });
+  
+   $(function() {
+    $( "#slider-range2" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount2" ).val(  ui.values[ 0 ]+"AED - " +  ui.values[ 1 ] + "AED" );
+      }
+    });
+    $( "#amount2" ).val( $( "#slider-range2" ).slider( "values", 0 ) +"AED - " + 
+       + $( "#slider-range2").slider( "values", 1 ) + "AED" );
+  });
+  </script>
+  <script>
+    $(function() {
+    $('.panel-body ul li a').on('click', function() {
+    $('.panel-body ul li a').removeClass('active');
+    $(this).addClass('active');
+    });
+	$('.panel-title a').on('click', function() {
+     $('.panel-body ul li a').removeClass('active');
+	});
+    });
+	
+	$(function() {
+    $('.price-range ul li a').on('click', function() {
+    $('price-range ul li a').removeClass('active');
+    $(this).addClass('active');
+    });
+	});
+  </script>
+    <script>
+  $(function() {
+  $(".tabs-off a").click(function() {
+			$(".tabs-off a").removeClass("active-btn");
+			$(this).addClass("active-btn");
+			});
+			
+			$(".tabs-off a:first-child").click(function() {
+				
+			$(".not-off").fadeIn();
+			$(".on-off").fadeOut();
+			});
+			$(".tabs-off a:last-child").click(function() {
+			$(".not-off").fadeOut()
+			$(".on-off").fadeIn();
+			});
+			});
+			
+			$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 420) {
+        $(".tabs-off").addClass("fixed-btn");
+		$(".tb-btn-in").addClass("container");
+		
+		  }
+    if (scroll < 420) {
+		$(".tabs-off").removeClass("fixed-btn");
+		$(".tb-btn-in").removeClass("container");		
+		 
+    }
+			});
+			 </script>
+  </head>
+  <body class="list-page-body loading">
+<div class="social-fixed">
+    <ul class="demo-social">
+    <li class="side-bar"> <a href="#"><img src="img/fb-1.png"></a>
+        <div class="face-book">
+           <p>Follow us on Facebook</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+    <li class="side-bar"> <a href="#"><img src="img/tw-2.png"></a>
+        <div class="face-book">
+           <p>Follow us on Twitter</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+    <li class="side-bar"> <a href="#"><img src="img/inst-3.png"></a>
+        <div class="face-book">
+           <p>Follow us on Facebook</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+    <li class="side-bar"> <a href="#"><img src="img/fd-4.png"></a>
+        <div class="face-book">
+        <div class="feedback-form">
+            <p>Contact us</p>
+            <input type="text" class="fix-feedback" placeholder="Email">
+            <textarea class="fix-feedback fix-msg" placeholder="Message"></textarea>
+            <a href="#" class="fix-btn">Send</a> </div>
+      </div>
+     </li>
+    <li class="side-bar"> <a href="#"><img src="img/ad-5.png"></a>
+        <div class="face-book">
+           <p>Your Feedback</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+  </ul>
+  </div>
+
+
+
+<nav id="sidebar">
+    <div class="cross-icon"><a href="#"><img src="img/cross-menu.png"></a></div>
+    <a class="login-user resp-nav-col clearfix" href="#"> <img src="img/user-img.jpg">
+      <div class="user-name">
+          <h5>JASON D</h5>
+        </div>
+      </a>
+  <div class="colored-nav resp-nav-col" style="display:none;">
+    <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+        <li><a href="#">FOOD & DRINKS</a></li>
+        <li><a href="#">BEAUTY & SPA</a></li>
+        <li><a href="#">ELECTRONICS</a></li>
+        <li><a href="#">HEALTH & FITNESS</a></li>
+        <li><a href="#">AUTOMOTIVE</a></li>
+        <li><a href="#">RETAIL</a></li>
+        <li><a href="#">TRAVEL</a></li>
+        <li><a href="#">ADVENTURE</a></li>
+      </ul>
+  </nav>
+  </div>
+  
+      <ul class="mn-nav-side">
+    <li><a href="#" class="sel-menu">Home</a></li>
+    <li><a href="#">Submit your offer</a></li>
+    <li><a href="#">App features</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Newsroom</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+  </ul>
+  </nav>
+<div id="content-push">
+    <div class="fixed-ov" style="display:none; position:fixed; left:0px; right:0; bottom:0; top:0; background:rgba(0,0,0,0.7); z-index:9999"></div>
+    <header class="header-ov">
+    <div class="top-sec">
+    <div class="nav-toggle"> <a href="#"><img src="img/toggle-icon.png"></a> </div>
+     <div class="nav-toggle2"> <a href="#"><span class="icon"><img src="img/filtericon.png" width="20" height="20" alt=""></span> <span class="on-ph-sh">Filters</span></a> </div>
+    <div class="container">
+        <div class="tp-sec-in clearfix">
+        <div class="logo-inner pull-left"> <a href="#"><img src="img/logo.png" class="res-hi-img"> <img src="img/logo-white.png" class="res-sh-img"></a> </div>
+        <div class="search-div pull-left res-hide-sec">
+        <ul class="clearfix">
+        <li>
+            <form action="" method="get">
+            <input type="hidden" name="mode" value="users">
+            <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative">
+                <input class="Typeahead-hint" type="text" tabindex="-1" readonly>
+                <input class="Typeahead-input" id="demo-input" type="text" name="q" placeholder="Search for Offers">
+                <button type="button" class="srch-btn"><i class="fa fa-search"></i></button>
+              </div>
+                <div class="Typeahead-menu"></div>
+              </div>
+            <button class="u-hidden" type="submit">blah</button>
+          </form>
+          </li>
+        <li>
+        <input type="text" class="srch-bar" placeholder="Dubai"  id='input1'>
+        <button type="button" class="srch-btn">
+        <i class="fa fa-map-marker"></i>
+        </li>
+        </ul>
+        </div>
+        <div class="pull-right right-top clearfix">
+        <div class="notification">
+        <a href="#" class="noti-ico"><i class="fa fa-bell-o"></i> <span>5</span></a>
+        <div class="dropdown-noti">
+            <h3>NOTIFICATIONS</h3>
+            <ul>
+            <li> <a href="#" class="clearfix"> <span class="user-im pull-left"> <img src="img/user-im-1.jpg"> </span>
+              <p class="pull-left p-con"><span>SAMMY D</span> is now following  you.</p>
+              <span class="time-fol pull-right">12 H</span> </a> </li>
+            <li> <a href="#" class="clearfix"> <span class="user-im pull-left"> <img src="img/user-im-2.jpg"> </span>
+              <p class="pull-left p-con"><span>ELLEN J </span> eviewed your offer <strong>‘Desert Safari at ..’</strong></p>
+              <span class="time-fol pull-right">12 H</span> </a> </li>
+            <li> <a href="#" class="clearfix"> <span class="user-im pull-left"> <img src="img/user-im-3.jpg"> </span>
+              <p class="pull-left p-con">Your Offer <strong>‘DESERT SAFARIAT ..’</strong> has reached its limit and
+                needs a
+                <spam>BOOST.</spam>
+              </p>
+              <span class="time-fol pull-right">12 H</span> </a> </li>
+            <li> <a href="#">VIEW ALL</a> </li>
+          </ul>
+          </div>
+      </div>
+        <a class="login-user des-nav-col clearfix" href="#"> <img src="img/user-img.jpg">
+      <div class="user-name">
+          <h5>JASON D</h5>
+        </div>
+      </a>
+        <div class="switch">
+        <input type="radio" class="switch-input" name="view" value="week" id="week" checked>
+        <label for="week" class="switch-label switch-label-off">EN</label>
+        <input type="radio" class="switch-input" name="view" value="month" id="month">
+        <label for="month" class="switch-label switch-label-on">ع</label>
+        <span class="switch-selection"></span> </div>
+      </div>
+  </div>
+    <!--/tp-sec-in--> 
+  </div>
+</div>
+<div class="colored-nav des-nav-col">
+    <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+        <li><a href="#">FOOD & DRINKS</a></li>
+        <li><a href="#">BEAUTY & SPA</a></li>
+        <li><a href="#">ELECTRONICS</a></li>
+        <li><a href="#">HEALTH & FITNESS</a></li>
+        <li><a href="#">AUTOMOTIVE</a></li>
+        <li><a href="#">RETAIL</a></li>
+        <li><a href="#">TRAVEL</a></li>
+        <li><a href="#">ADVENTURE</a></li>
+      </ul>
+  </nav>
+  </div>
+</header>
+<div class="container">
+<div class="search-div pull-left res-show-sec">
+        <ul class="clearfix">
+        <li>
+            <form action="" method="get">
+            <input type="hidden" name="mode" value="users">
+            <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative">
+                <input class="Typeahead-hint" type="text" tabindex="-1" readonly>
+                <input class="Typeahead-input" id="demo-input" type="text" name="q" placeholder="Search for Offers">
+                <button type="button" class="srch-btn"><i class="fa fa-search"></i></button>
+              </div>
+                <div class="Typeahead-menu"></div>
+              </div>
+            <button class="u-hidden" type="submit">blah</button>
+          </form>
+          </li>
+        <li>
+        <input type="text" class="srch-bar" placeholder="Dubai"  id='input1'>
+        <button type="button" class="srch-btn">
+        <i class="fa fa-map-marker"></i>
+        </button>
+        </li>
+      </ul>
+    </div>
+ </div>       
+</div>
+
+
+
+
+
+
+<div class="outer-pannel clearfix">
+   <div class="left-n-panels pull-left">
+         <ul class="nav nav-resp">
+			<li class="active"><a href="#1a" data-toggle="tab">ACCOUNT SETTINGS</a></li>
+			<li><a href="#2a" data-toggle="tab">PROFILE SETTINGS</a></li>
+			<li><a href="#3a" data-toggle="tab">ANALYTICS</a></li>
+		 </ul>
+   </div>
+   
+     <div class="container tab-cont-body clearfix">
+		 <div class="tab-content right-n-panel pull-left clearfix">
+			  <div class="tab-pane active" id="1a">
+                <div class="one-tab-cont">
+                 <h1>Account Settings</h1>
+                 <h3>ACCOUNT DETAILS</h3>
+                 <form>
+                    <input type="text" class="email-info" placeholder="Email">
+                    <input type="password" class="email-info" placeholder="Password">
+                    <select class="sel-lang">
+                       <option>Language</option>
+                       <option>English</option>
+                       <option>French</option>
+                    </select>
+                    <select class="sel-lang remov-mar">
+                       <option>Country</option>
+                       <option>USA</option>
+                       <option>America</option>
+                    </select>
+                    <select class="sel-lang">
+                       <option>City</option>
+                       <option>USA</option>
+                       <option>America</option>
+                    </select>
+                    <input type="text" class="sel-lang last-inp-form" placeholder="Area">
+                    <a href="#" class="save-info-btn">SAVE</a>
+                 </form>
+                </div>
+			  </div>
+              
+			  <div class="tab-pane" id="2a">
+                <div class="one-tab-cont">
+                 <h1>Profile Settings</h1>
+                 <h3>PROFILE DETAILS</h3>
+                 <form>
+                    <input type="text" class="profile-last-inp" placeholder="First Name">
+                    <input type="text" class="profile-last-inp remov-mar" placeholder="Last Name">
+                    <textarea class="email-info ab-txtarea" placeholder="About us"></textarea>
+                    <input type="text" class="email-info" placeholder="Website">
+                    <a href="#" class="save-info-btn">SAVE</a>
+                 </form>
+                </div>
+			  </div>
+              
+              <div class="tab-pane" id="3a">
+                <div class="one-tab-cont three-tb-cont">
+                  <div class="t3-heading clearfix">
+                    <h1 class="pull-left">Analytics</h1>
+                    <a href="" class="extended-btn pull-right"><i class="fa fa-search"></i>EXTENDED ANALYTICS</a>
+                  </div>
+                  <div class="re-views">
+                     <ul>
+                       <li>
+                          <h1>1.5M</h1>
+                          <h6>PROFILE VIEWS</h6>
+                       </li>
+                       <li>
+                          <h1>200K</h1>
+                          <h6>CLICKED ON WEBSITE</h6>
+                       </li>
+                       <li>
+                          <h1>1.1M</h1>
+                          <h6>OFFER VIEWS</h6>
+                       </li>
+                       <li>
+                          <h1>500</h1>
+                          <h6>REVIEWED</h6>
+                       </li>
+                    </ul>
+                  </div>
+                  
+                    <h3>OFFERS CREATED</h3>
+                    
+                   <div class="b-table"> 
+                    <div class="scroll-bar">
+                    <table class="table own-table">
+                       <thead>
+                         <tr class="t-heading">
+                            <th>NAME</th>
+                            <th>VIEWS</th>
+                            <th>REVIEWS</th>
+                            <th>FAVORITED</th>
+                            <th>PROMOTION</th>
+                         </tr>
+                       </thead>
+                       <tbody class="table-body-cont">
+                          <tr>
+                            <td>Offer Name Goes Here</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>150</td>
+                            <td><a href="#" class="t-boost-btn">Sponsored</a></td>
+                          </tr>
+                          <tr>
+                            <td>Offer Name Goes Here</td>
+                            <td>9,000</td>
+                            <td>2000</td>
+                            <td>700</td>
+                            <td><a href="#" class="t-boost-btn t-boosted-btn">Sponsor</a></td>
+                          </tr>
+                          <tr>
+                            <td>Offer Name Goes Here</td>
+                            <td>1000</td>
+                            <td>300</td>
+                            <td>100</td>
+                            <td><a href="#" class="t-boost-btn">Sponsored</a></td>
+                          </tr>
+                          <tr>
+                            <td>Offer Name Goes Here</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>150</td>
+                            <td><a href="#" class="t-boost-btn">Sponsored</a></td>
+                          </tr>
+                       </tbody>
+                    </table>
+                    </div>
+                  </div>
+                   
+                </div>
+			  </div>
+		 </div>
+
+          
+          <div class="urgent-acc">
+            <h2>Upgrade Account</h2>
+            <div class="price-month">
+               <h1>$49.99</h1>
+               <h6>/month</h6>
+               <p>You’ll love upgrading your account.<br> Look at all the goodness you get <br>with it:</p>
+               <ul>
+                  <li>First feature</li>
+                  <li>Second feature</li>
+                  <li>Third feature</li>
+                  <li>Fourth feature</li>
+                  <li>Fifth feature</li>
+               </ul>
+               <a href="#" class="upgrade-btn">UPGRADE NOW</a>
+            </div>
+         </div>
+
+
+     </div>
+     
+         
+     
+   
+</div>
+
+
+
+
+
+
+<footer class="ft-bg">
+    <div class="container">
+    <div class="row ft-padding clearfix">
+        <div class="col-sm-4">
+        <div class="footer-left"> <a href="#"><img src="img/ft-logo.png"></a>
+            <ul>
+            <li><a href="#">NEWSROOM</a></li>
+            <li><a href="#">ADVERTISE WITH US</a></li>
+          </ul>
+          </div>
+      </div>
+        <div class="col-sm-3">
+        <div class="footer-middle">
+            <h5>FOLLOW US</h5>
+            <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+          </div>
+      </div>
+        <div class="col-sm-5">
+        <div class="footer-middle footer-right pull-right">
+            <h5>DOWNLOAD THE APP</h5>
+            <ul>
+            <li><a href="#"><img src="img/ft-1.png"></a></li>
+            <li><a href="#"><img src="img/ft-2.png"></a></li>
+            <li><a href="#"><img src="img/ft-3.png"></a></li>
+          </ul>
+          </div>
+      </div>
+      </div>
+    <div class="copyrights clearfix">
+        <div class="copy-left pull-left">
+        <h5>© 2015 Vendanza, Inc. All Rights Reserved.</h5>
+      </div>
+        <div class="copy-right pull-right">
+        <ul>
+            <li><a href="#">Terms & Conditions </a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+      </div>
+      </div>
+  </div>
+  </footer>
+
+<!--popup-->
+<div class="modal fade view-popup" id="myModal" role="dialog">
+    <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+        <button type="button" class="close mod-close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+        <div class="modal-body modl-body">
+        <div class="slider-pp clearfix">
+            <div class="slider-left pull-left">
+            <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-outer'> 
+                <!-- Wrapper for slides -->
+                <div class='carousel-inner'>
+                    <div class='item active'> <img src="img/slider-main.jpg"/> </div>
+                    <div class='item'> <img src="img/slider-main-2.jpg"/> </div>
+                    <div class='item'> <img src="img/slider-main-3.jpg"/> </div>
+                  </div>
+                
+                <!-- Controls --> 
+                <a class='left carousel-control' href='#carousel-custom' data-slide='prev'> <span class='glyphicon glyphicon-chevron-left'></span> </a> <a class='right carousel-control' href='#carousel-custom' data-slide='next'> <span class='glyphicon glyphicon-chevron-right'></span> </a> </div>
+                
+                <!-- Indicators -->
+                <ol class='carousel-indicators mCustomScrollbar clearfix'>
+                <li data-target='#carousel-custom' data-slide-to='0' class='active'> <img src="img/slider-main.jpg"/></li>
+                <li data-target='#carousel-custom' data-slide-to='1'> <img src="img/slider-main-2.jpg"/></li>
+                <li data-target='#carousel-custom' data-slide-to='2'> <img src="img/slider-main-3.jpg" /></li>
+              </ol>
+              </div>
+          </div>
+            <div class="dish-rev pull-left">
+            <div class="rev-us">
+                <div class="user-im"> <img src="img/user-im-1.jpg"> </div>
+                <div class="us-name">ANDRE N</div>
+                <div class="mn-con">
+                <h5>FOOD & DRINKS</h5>
+                <h3>Dinner for two at Indigo  Delicatessen. </h3>
+                <h2>20 AED (50% OFF)</h2>
+                <div class="raiting-div rating-div-two clearfix">
+                    <p>QUALITY <span>(28 VOTES)</span></p>
+                    <div class="pull-right">
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">8.0</a> </div>
+                  </div>
+                <div class="raiting-div rating-div-two clearfix">
+                    <p>VALUE <span>(28 VOTES)</span></p>
+                    <div class="pull-right">
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">9.0</a> </div>
+                    <div class="summ">
+                    <h5>SUMMARY</h5>
+                    <p>5 courses of artfully plated New American cuisine, which invoke the flavors of Maine and the Michelin-starred skills of Chef Ryan McCaskey.</p>
+                  </div>
+                    <div class="two-btn-gr"> <a href="#" class="gt-rv">GET THIS OFFER</a> <a href="#" class="rate-btn"><i class="fa fa-star"></i></a> </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+
+<!--popup--> 
+
+<script>
+   $(document).ready(function(){
+    $(".side-bar").click(function(){
+        $(this).toggleClass("face-book-2");
+    });
+});
+   
+   </script> 
+<script id="result-template" type="text/x-handlebars-template">
+      <div class="ProfileCard u-cf">
+        <img class="ProfileCard-avatar" src="{{profile_image_url_https}}">
+
+        <div class="ProfileCard-details">
+          <div class="ProfileCard-realName">{{name}}</div>
+          <div class="ProfileCard-screenName">@{{screen_name}}</div>
+          <div class="ProfileCard-description">{{description}}</div>
+        </div>
+
+       
+      </div>
+    </script> 
+<script id="empty-template" type="text/x-handlebars-template">
+      <div class="EmptyMessage">Your search turned up 0 results. This most likely means the backend is down, yikes!</div>
+    </script> 
+<script src="https://twitter.github.io/typeahead.js/js/handlebars.js"></script> 
+<script src="https://twitter.github.io/typeahead.js/js/jquery.xdomainrequest.min.js"></script> 
+<script src="https://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+<script src="https://twitter.github.io/typeahead.js/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  <title>Vendanza</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/font-iocn.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel='stylesheet' type='text/css' href='css/immybox.css'>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <script src="https://twitter.github.io/typeahead.js/js/jquery-1.10.2.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/jquery.ui.touch-punch.min.js"></script>
+  <script src="js/jquery.mobile.custom.min.js"></script>
+  <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+  <script src='http://www.jqueryscript.net/demo/Easy-jQuery-Autocomplet-Plugin-with-Character-Highlight-Support-immybox/jquery.immybox.min.js'></script>
+  
+  
+  <script type='text/javascript'>
+      $(function() {
+
+        // simple example
+        $('#input1').immybox({
+          choices: [
+            {text: 'Abu Dhabi', value: 'AD'},
+            {text: 'Dubai', value: 'DH'},
+            {text: 'Sharjah', value: 'SH'},
+            {text: 'Arkansas', value: 'AR'},
+            {text: 'California', value: 'CA'},
+            {text: 'Colorado', value: 'CO'},
+            {text: 'Connecticut', value: 'CT'},
+            {text: 'Delaware', value: 'DE'},
+            {text: 'Florida', value: 'FL'},
+            {text: 'Georgia', value: 'GA'},
+            {text: 'Hawaii', value: 'HI'},
+            {text: 'Idaho', value: 'ID'},
+            {text: 'Illinois', value: 'IL'},
+            {text: 'Indiana', value: 'IN'},
+            {text: 'Iowa', value: 'IA'},
+            {text: 'Kansas', value: 'KS'},
+            {text: 'Kentucky', value: 'KY'},
+            {text: 'Louisiana', value: 'LA'},
+            {text: 'Maine', value: 'ME'},
+            {text: 'Maryland', value: 'MD'},
+            {text: 'Massachusetts', value: 'MA'},
+            {text: 'Michigan', value: 'MI'},
+            {text: 'Minnesota', value: 'MN'},
+            {text: 'Mississippi', value: 'MS'},
+            {text: 'Missouri', value: 'MO'},
+            {text: 'Montana', value: 'MT'},
+            {text: 'Nebraska', value: 'NE'},
+            {text: 'Nevada', value: 'NV'},
+            {text: 'New Hampshire', value: 'NH'},
+            {text: 'New Jersey', value: 'NJ'},
+            {text: 'New Mexico', value: 'NM'},
+            {text: 'New York', value: 'NY'},
+            {text: 'North Carolina', value: 'NC'},
+            {text: 'North Dakota', value: 'ND'},
+            {text: 'Ohio', value: 'OH'},
+            {text: 'Oklahoma', value: 'OK'},
+            {text: 'Oregon', value: 'OR'},
+            {text: 'Pennsylvania', value: 'PA'},
+            {text: 'Rhode Island', value: 'RI'},
+            {text: 'South Carolina', value: 'SC'},
+            {text: 'South Dakota', value: 'SD'},
+            {text: 'Tennessee', value: 'TN'},
+            {text: 'Texas', value: 'TX'},
+            {text: 'Utah', value: 'UT'},
+            {text: 'Vermont', value: 'VT'},
+            {text: 'Virginia', value: 'VA'},
+            {text: 'Washington', value: 'WA'},
+            {text: 'West Virginia', value: 'WV'},
+            {text: 'Wisconsin', value: 'WI'},
+            {text: 'Wyoming', value: 'WY'}
+          ],
+          defaultSelectedValue: 'LA'
+        });
+
+      });
+    </script>
+  <script type="text/javascript">
+         
+    	$(document).ready(function(){
+			$(".hide-strip").click(function(){
+			$(".top-strip").slideUp(500);
+			});
+		});
+    </script>
+  <script>
+    
+	     $(".panel-heading a").click(function() {
+			$(".panel-heading a").removeClass("active");
+			$(this).addClass("active");
+			
+			});
+			
+			
+			
+		$("#collapseSix .saved-select li a").click(function() {
+			$(".saved-select li a").removeClass("active");
+			$(this).addClass("active");
+			});	
+    
+    </script>
+     <script type="text/javascript">
+		$(document).ready(function() {
+  		$('#portfolio').mixitup({
+    	  targetSelector: '.common-div',
+   		  transitionSpeed: 450
+ 	 });
+		});
+</script>
+  <script>
+                
+		$(document).ready(function() {
+			$("#accordion1 > li > a").click(function() {
+			$(this).siblings("div").slideToggle(250);
+			$(this).toggleClass("active");
+			
+			});
+			$("#accordion2 > li > a").click(function() {
+			$(this).siblings("div").slideToggle(250);
+			$(this).toggleClass("active");
+			
+			});
+			$(".map-close a").click(function() {
+			$(".banner-map").slideToggle(500);
+			$(this).toggleClass("active");
+			});
+			$(".noti-ico").click(function() {
+			$(".dropdown-noti").slideToggle(300);
+			});
+			
+			
+			$(".lft-hvr-side a").click(function() {
+			$(this).toggleClass("add-fav-yl");
+			});
+			$("#sidebar ul.mn-nav-side li a").click(function() {
+			$("#sidebar ul.mn-nav-side li a").removeClass("sel-menu");	
+			$(this).addClass("sel-menu");
+			});
+			
+			$(".navbar-nav > li a").click(function() {
+			$(".navbar-nav > li a").removeClass("sel-menu-li");	
+			$(this).addClass("sel-menu-li");
+			});
+			
+			$(".navbar-nav > li:first-child a").click(function() {
+			$("body").removeClass("rust orange light-green green sky blue pink");	
+			$("body").addClass("red");
+			});
+			$(".navbar-nav > li:nth-child(2) a").click(function() {
+			$("body").removeClass("red orange light-green green sky blue pink");
+			$("body").addClass("rust");
+			});
+			$(".navbar-nav > li:nth-child(3) a").click(function() {
+			$("body").removeClass("red rust light-green green sky blue pink");
+			$("body").addClass("orange");
+			});
+			$(".navbar-nav > li:nth-child(4) a").click(function() {
+			$("body").removeClass("red rust orange green sky blue pink");	
+			$("body").addClass("light-green");
+			});
+			$(".navbar-nav > li:nth-child(5) a").click(function() {
+			$("body").removeClass("red rust orange light-green  sky blue pink");	
+			$("body").addClass("green");
+			});
+			$(".navbar-nav > li:nth-child(6) a").click(function() {
+			$("body").removeClass("red rust orange light-green green blue pink");
+			$("body").addClass("sky");
+			});
+			$(".navbar-nav > li:nth-child(7) a").click(function() {
+			$("body").removeClass("red rust orange light-green green sky pink");	
+			$("body").addClass("blue");
+			});
+			$(".navbar-nav > li:nth-child(8) a").click(function() {
+			$("body").removeClass("red rust orange light-green green sky blue");	
+			$("body").addClass("pink");
+			});
+			
+			$('.nav-toggle a').on('click', function() {
+			$('#content-push').addClass('isOpen');
+			$('#sidebar').show();
+			$('.fixed-ov').show(100);
+			//$(this).toggleClass('active');
+			
+			});
+			
+			$('.nav-toggle2 a').on('click', function() {
+			$('#content-push').addClass('isOpen-left');
+			$('#sidebar2').show();
+			$('.fixed-ov').show(100);
+			
+			});
+			$('.hide-left-nav a').on('click', function() {
+			$('#content-push').removeClass('isOpen-left');
+			$('#sidebar2').hide(500);
+			$('.fixed-ov').hide(100);
+			});
+			
+			
+			$('.cross-icon a').on('click', function() {
+			$('#content-push').removeClass('isOpen');
+			$('#sidebar').hide(500);
+			$('.fixed-ov').hide(100);
+			});
+			
+			
+			
+			$(".location-ac li a, .trending-ac li a").click(function() {
+			$(this).toggleClass("sel");
+			});
+			
+			
+		});
+		
+		
+
+    </script>
+ 
+  <!--price range-->
+
+  <script>
+    
+  $(function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val(  ui.values[ 0 ]+"AED - " +  ui.values[ 1 ] + "AED" );
+      }
+    });
+    $( "#amount" ).val( $( "#slider-range" ).slider( "values", 0 ) +"AED - " + 
+       + $( "#slider-range").slider( "values", 1 ) + "AED" );
+  $('#slider-range').draggable();
+  
+  
+  });
+  
+   $(function() {
+    $( "#slider-range2" ).slider({
+      range: true,
+      min: 0,
+      max: 500,
+      values: [ 75, 300 ],
+      slide: function( event, ui ) {
+        $( "#amount2" ).val(  ui.values[ 0 ]+"AED - " +  ui.values[ 1 ] + "AED" );
+      }
+    });
+    $( "#amount2" ).val( $( "#slider-range2" ).slider( "values", 0 ) +"AED - " + 
+       + $( "#slider-range2").slider( "values", 1 ) + "AED" );
+  });
+  </script>
+  <script>
+    $(function() {
+    $('.panel-body ul li a').on('click', function() {
+    $('.panel-body ul li a').removeClass('active');
+    $(this).addClass('active');
+    });
+	$('.panel-title a').on('click', function() {
+     $('.panel-body ul li a').removeClass('active');
+	});
+    });
+	
+	$(function() {
+    $('.price-range ul li a').on('click', function() {
+    $('price-range ul li a').removeClass('active');
+    $(this).addClass('active');
+    });
+	});
+  </script>
+    <script>
+  $(function() {
+  $(".tabs-off a").click(function() {
+			$(".tabs-off a").removeClass("active-btn");
+			$(this).addClass("active-btn");
+			});
+			
+			$(".tabs-off a:first-child").click(function() {
+				
+			$(".not-off").fadeIn();
+			$(".on-off").fadeOut();
+			});
+			$(".tabs-off a:last-child").click(function() {
+			$(".not-off").fadeOut()
+			$(".on-off").fadeIn();
+			});
+			});
+			
+			$(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+
+    if (scroll >= 420) {
+        $(".tabs-off").addClass("fixed-btn");
+		$(".tb-btn-in").addClass("container");
+		
+		  }
+    if (scroll < 420) {
+		$(".tabs-off").removeClass("fixed-btn");
+		$(".tb-btn-in").removeClass("container");		
+		 
+    }
+			});
+			 </script>
+  </head>
+  <body class="list-page-body loading">
+<div class="social-fixed">
+    <ul class="demo-social">
+    <li class="side-bar"> <a href="#"><img src="img/fb-1.png"></a>
+        <div class="face-book">
+           <p>Follow us on Facebook</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+    <li class="side-bar"> <a href="#"><img src="img/tw-2.png"></a>
+        <div class="face-book">
+           <p>Follow us on Twitter</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+    <li class="side-bar"> <a href="#"><img src="img/inst-3.png"></a>
+        <div class="face-book">
+           <p>Follow us on Facebook</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+    <li class="side-bar"> <a href="#"><img src="img/fd-4.png"></a>
+        <div class="face-book">
+        <div class="feedback-form">
+            <p>Contact us</p>
+            <input type="text" class="fix-feedback" placeholder="Email">
+            <textarea class="fix-feedback fix-msg" placeholder="Message"></textarea>
+            <a href="#" class="fix-btn">Send</a> </div>
+      </div>
+     </li>
+    <li class="side-bar"> <a href="#"><img src="img/ad-5.png"></a>
+        <div class="face-book">
+           <p>Your Feedback</p>
+           <img src="img/facebook-code-img-2.jpg">
+        </div>
+      </li>
+  </ul>
+  </div>
+
+<nav id="sidebar2" style="display:none;">
+    <div class="cross-icon hide-left-nav"><a href="#"><img src="img/cross-menu.png"></a></div>
+    <div id="accordion2" class="side-menu">
+    <div id="filter-list" class="panel-group">
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="filter active1" data-filter="all" href="javascript:void(0)"> <span class="icon icon-rss"></span>&nbsp;&nbsp;Home <span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="rotate-angle" href="#collapseSix" data-parent="#accordion" data-toggle="collapse"> <span class="icon icon-rss"></span>&nbsp;&nbsp;SAVED SEARCHES<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+        <div class="panel-collapse collapse in" id="collapseSix">
+            <div class="panel-body pnl-boby saved-select">
+            <ul>
+                <li><a class="filter" data-filter="filter-1" href="javascript:void(0)">T-shirts</a></li>
+                <li><a class="filter" data-filter="filter-2" href="javascript:void(0)">Shoes</a></li>
+                <li><a class="filter" data-filter="filter-3" href="javascript:void(0)">Fun</a></li>
+                <li><a class="filter" data-filter="filter-4" href="javascript:void(0)">Adventure Sports</a></li>
+              </ul>
+          </div>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main pnl-main1">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="rotate-angle" href="#collapse10" data-parent="#accordion" data-toggle="collapse"> <span class="icon icon-rss"></span>&nbsp;&nbsp;Recommended<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+        <div class="panel-collapse collapse in" id="collapse10">
+            <div class="panel-body pnl-boby saved-select">
+            <ul>
+                <li><a class="filter" data-filter="filter-1" href="javascript:void(0)">T-shirts</a></li>
+                <li><a class="filter" data-filter="filter-2" href="javascript:void(0)">Shoes</a></li>
+                <li><a class="filter" data-filter="filter-3" href="javascript:void(0)">Fun</a></li>
+                <li><a class="filter" data-filter="filter-4" href="javascript:void(0)">Adventure Sports</a></li>
+              </ul>
+          </div>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main pnl-main2">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="filter" data-filter="filter-5" href="javascript:void(0)"> <span class="icon icon-star-1"></span>&nbsp;&nbsp;FAVORITES<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="filter" data-filter="filter-1" href="javascript:void(0)"><span class="icon icon-graph"></span>&nbsp;&nbsp;TRENDING<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="filter" data-filter="filter-2" href="javascript:void(0)"><span class="icon icon-trophy"></span>&nbsp;&nbsp;FEATURED<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="filter" data-filter="filter-3" href="javascript:void(0)"><span class="icon icon-trophy"></span>&nbsp;&nbsp;TOP VENDORS<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a class="filter" data-filter="filter-4" href="javascript:void(0)"><span class="icon icon-trophy"></span>&nbsp;&nbsp;DEAL OF THE DAY<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="price-range">
+        <h4><span class="icon icon-tag-2"></span>&nbsp;&nbsp;PRICE RANGE</h4>
+        <div id="slider-range"></div>
+        <p>
+            <input type="text" style="border:0; color:#f6931f; font-weight:bold;" readonly class="range-input" id="amount">
+          </p>
+      </div>
+        <div class="price-range location-ac">
+        <h4><span class="icon icon-params"></span>&nbsp;&nbsp;VENUES</h4>
+        <ul>
+            <li><a href="javascript:void(0)">Dubai Mall</a></li>
+            <li><a href="javascript:void(0)">Marina</a></li>
+            <li><a href="javascript:void(0)">Jumeirah</a></li>
+            <li><a href="javascript:void(0)">Mercato Shopping Mall</a></li>
+            <li><a href="javascript:void(0)">Burdubai</a></li>
+            <li><a href="javascript:void(0)">More</a></li>
+          </ul>
+      </div>
+        <div class="price-range trending-ac">
+        <h4><span class="hash icon">#</span>&nbsp;&nbsp;HASHTAGS</h4>
+        <ul>
+            <li><a href="javascript:void(0)">#DUBAIADVENTURES</a></li>
+            <li><a href="javascript:void(0)">#SALE</a></li>
+            <li><a href="javascript:void(0)">#ABUDHABI</a></li>
+            <li><a href="javascript:void(0)">#PETS</a></li>
+            <li><a href="javascript:void(0)">#FREE</a></li>
+            <li><a href="javascript:void(0)">#TOYS</a></li>
+            <li><a href="javascript:void(0)">#BESTSUSHI</a></li>
+            <li><a href="javascript:void(0)">#DRAGONMART</a></li>
+            <li><a href="javascript:void(0)">#HITMOVIES</a></li>
+            <li><a href="javascript:void(0)">#KILLERWORKOUT</a></li>
+            <li><a href="javascript:void(0)">#TAXI</a></li>
+            <li><a href="javascript:void(0)">#BOOKS</a></li>
+            <li><a href="javascript:void(0)">#PETS</a></li>
+          </ul>
+      </div>
+        <div class="price-range location-ac">
+        <h4><span class="icon icon-params"></span>&nbsp;&nbsp;HOW YOU FEELING</h4>
+        <ul>
+            <li><a href="javascript:void(0)">Happy</a></li>
+            <li><a href="javascript:void(0)">Adventurous</a></li>
+            <li><a href="javascript:void(0)">Hungry</a></li>
+            <li><a href="javascript:void(0)">Relaxing</a></li>
+            <li><a href="javascript:void(0)">Lazy</a></li>
+            <li><a href="javascript:void(0)">More</a></li>
+          </ul>
+      </div>
+       
+      </div>
+  </div>
+  </nav>
+
+<nav id="sidebar">
+    <div class="cross-icon"><a href="#"><img src="img/cross-menu.png"></a></div>
+    <a class="login-user resp-nav-col clearfix" href="#"> <img src="img/user-img.jpg">
+      <div class="user-name">
+          <h5>JASON D</h5>
+        </div>
+      </a>
+  <div class="colored-nav resp-nav-col" style="display:none;">
+    <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+        <li><a href="#">FOOD & DRINKS</a></li>
+        <li><a href="#">BEAUTY & SPA</a></li>
+        <li><a href="#">ELECTRONICS</a></li>
+        <li><a href="#">HEALTH & FITNESS</a></li>
+        <li><a href="#">AUTOMOTIVE</a></li>
+        <li><a href="#">RETAIL</a></li>
+        <li><a href="#">TRAVEL</a></li>
+        <li><a href="#">ADVENTURE</a></li>
+      </ul>
+  </nav>
+  </div>
+  
+      <ul class="mn-nav-side">
+    <li><a href="#" class="sel-menu">Home</a></li>
+    <li><a href="#">Submit your offer</a></li>
+    <li><a href="#">App features</a></li>
+    <li><a href="#">About us</a></li>
+    <li><a href="#">Newsroom</a></li>
+    <li><a href="#">Privacy Policy</a></li>
+    <li><a href="#">Terms & Conditions</a></li>
+  </ul>
+  </nav>
+<div id="content-push">
+    <div class="fixed-ov" style="display:none; position:fixed; left:0px; right:0; bottom:0; top:0; background:rgba(0,0,0,0.7); z-index:9999"></div>
+    <header class="header-ov">
+    <div class="top-sec">
+    <div class="nav-toggle"> <a href="#"><img src="img/toggle-icon.png"></a> </div>
+     <div class="nav-toggle2"> <a href="#"><span class="icon"><img src="img/filtericon.png" width="20" height="20" alt=""></span> <span class="on-ph-sh">Filters</span></a> </div>
+    <div class="container">
+        <div class="tp-sec-in clearfix">
+        <div class="logo-inner pull-left"> <a href="#"><img src="img/logo.png" class="res-hi-img"> <img src="img/logo-white.png" class="res-sh-img"></a> </div>
+        <div class="search-div pull-left res-hide-sec">
+        <ul class="clearfix">
+        <li>
+            <form action="" method="get">
+            <input type="hidden" name="mode" value="users">
+            <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative">
+                <input class="Typeahead-hint" type="text" tabindex="-1" readonly>
+                <input class="Typeahead-input" id="demo-input" type="text" name="q" placeholder="Search for Offers">
+                <button type="button" class="srch-btn"><i class="fa fa-search"></i></button>
+              </div>
+                <div class="Typeahead-menu"></div>
+              </div>
+            <button class="u-hidden" type="submit">blah</button>
+          </form>
+          </li>
+        <li>
+        <input type="text" class="srch-bar" placeholder="Dubai"  id='input1'>
+        <button type="button" class="srch-btn">
+        <i class="fa fa-map-marker"></i>
+        </li>
+        </ul>
+        </div>
+        <div class="pull-right right-top clearfix">
+        <div class="notification">
+        <a href="#" class="noti-ico"><i class="fa fa-bell-o"></i> <span>5</span></a>
+        <div class="dropdown-noti">
+            <h3>NOTIFICATIONS</h3>
+            <ul>
+            <li> <a href="#" class="clearfix"> <span class="user-im pull-left"> <img src="img/user-im-1.jpg"> </span>
+              <p class="pull-left p-con"><span>SAMMY D</span> is now following  you.</p>
+              <span class="time-fol pull-right">12 H</span> </a> </li>
+            <li> <a href="#" class="clearfix"> <span class="user-im pull-left"> <img src="img/user-im-2.jpg"> </span>
+              <p class="pull-left p-con"><span>ELLEN J </span> eviewed your offer <strong>‘Desert Safari at ..’</strong></p>
+              <span class="time-fol pull-right">12 H</span> </a> </li>
+            <li> <a href="#" class="clearfix"> <span class="user-im pull-left"> <img src="img/user-im-3.jpg"> </span>
+              <p class="pull-left p-con">Your Offer <strong>‘DESERT SAFARIAT ..’</strong> has reached its limit and
+                needs a
+                <spam>BOOST.</spam>
+              </p>
+              <span class="time-fol pull-right">12 H</span> </a> </li>
+            <li> <a href="#">VIEW ALL</a> </li>
+          </ul>
+          </div>
+      </div>
+        <a class="login-user des-nav-col clearfix" href="#"> <img src="img/user-img.jpg">
+      <div class="user-name">
+          <h5>JASON D</h5>
+        </div>
+      </a>
+        <div class="switch">
+        <input type="radio" class="switch-input" name="view" value="week" id="week" checked>
+        <label for="week" class="switch-label switch-label-off">EN</label>
+        <input type="radio" class="switch-input" name="view" value="month" id="month">
+        <label for="month" class="switch-label switch-label-on">ع</label>
+        <span class="switch-selection"></span> </div>
+      </div>
+  </div>
+    <!--/tp-sec-in--> 
+  </div>
+</div>
+<div class="colored-nav des-nav-col">
+    <nav class="navbar navbar-default">
+    <ul class="nav navbar-nav">
+        <li><a href="#">FOOD & DRINKS</a></li>
+        <li><a href="#">BEAUTY & SPA</a></li>
+        <li><a href="#">ELECTRONICS</a></li>
+        <li><a href="#">HEALTH & FITNESS</a></li>
+        <li><a href="#">AUTOMOTIVE</a></li>
+        <li><a href="#">RETAIL</a></li>
+        <li><a href="#">TRAVEL</a></li>
+        <li><a href="#">ADVENTURE</a></li>
+      </ul>
+  </nav>
+  </div>
+</header>
+<div class="container">
+<div class="search-div pull-left res-show-sec">
+        <ul class="clearfix">
+        <li>
+            <form action="" method="get">
+            <input type="hidden" name="mode" value="users">
+            <div class="Typeahead Typeahead--twitterUsers">
+                <div class="u-posRelative">
+                <input class="Typeahead-hint" type="text" tabindex="-1" readonly>
+                <input class="Typeahead-input" id="demo-input" type="text" name="q" placeholder="Search for Offers">
+                <button type="button" class="srch-btn"><i class="fa fa-search"></i></button>
+              </div>
+                <div class="Typeahead-menu"></div>
+              </div>
+            <button class="u-hidden" type="submit">blah</button>
+          </form>
+          </li>
+        <li>
+        <input type="text" class="srch-bar" placeholder="Dubai"  id='input1'>
+        <button type="button" class="srch-btn">
+        <i class="fa fa-map-marker"></i>
+        </button>
+        </li>
+        </ul>
+        </div>
+        </div>
+        
+        
+<div class="banner-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48569.15037037765!2d55.24868688955118!3d25.205795502544326!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1441183171984" width="100%" height="363" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+<div class="middle-con">
+    <div class="side-menu responsive-none" id="accordion1" >
+    <div class="panel-group" id="filter-list">
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a href="javascript:void(0)" data-filter="all" class="filter"> <span class="icon icon-rss"></span>&nbsp;&nbsp;Home <span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse01" class="rotate-angle"> <span class="icon icon-rss"></span>&nbsp;&nbsp;SAVED SEARCHES<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+        <div id="collapse01" class="panel-collapse collapse in">
+            <div class="panel-body pnl-boby saved-select">
+            <ul>
+                <li><a href="javascript:void(0)" data-filter="filter-1" class="filter">T-shirts</a></li>
+                <li><a href="javascript:void(0)" data-filter="filter-2" class="filter">Shoes</a></li>
+                <li><a href="javascript:void(0)" data-filter="filter-3" class="filter">Fun</a></li>
+                <li><a href="javascript:void(0)" data-filter="filter-4" class="filter">Adventure Sports</a></li>
+              </ul>
+          </div>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main pnl-main1">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse02" class="rotate-angle"> <span class="icon icon-rss"></span>&nbsp;&nbsp;Recommended<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+        <div id="collapse02" class="panel-collapse collapse in">
+            <div class="panel-body pnl-boby saved-select">
+            <ul>
+                <li><a href="javascript:void(0)" data-filter="filter-1" class="filter">T-shirts</a></li>
+                <li><a href="javascript:void(0)" data-filter="filter-2" class="filter">Shoes</a></li>
+                <li><a href="javascript:void(0)" data-filter="filter-3" class="filter">Fun</a></li>
+                <li><a href="javascript:void(0)" data-filter="filter-4" class="filter">Adventure Sports</a></li>
+              </ul>
+          </div>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main pnl-main2">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a href="javascript:void(0)" data-filter="filter-5" class="filter"> <span class="icon icon-star-1"></span>&nbsp;&nbsp;FAVORITES<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a href="javascript:void(0)" data-filter="filter-1" class="filter"><span class="icon icon-graph"></span>&nbsp;&nbsp;TRENDING<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a href="javascript:void(0)" data-filter="filter-2" class="filter"><span class="icon icon-trophy"></span>&nbsp;&nbsp;FEATURED<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a href="javascript:void(0)" data-filter="filter-3" class="filter"><span class="icon icon-trophy"></span>&nbsp;&nbsp;TOP VENDORS<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="panel panel-default pnl-main">
+        <div class="panel-heading pnl-heading">
+            <h4 class="panel-title pnl-title clearfix"> <a href="javascript:void(0)" data-filter="filter-4" class="filter"><span class="icon icon-trophy"></span>&nbsp;&nbsp;DEAL OF THE DAY<span class="pull-right"><img src="img/accordian-ico-right.png"></span></a> </h4>
+          </div>
+      </div>
+        <div class="price-range">
+        <h4><span class="icon icon-tag-2"></span>&nbsp;&nbsp;PRICE RANGE</h4>
+        <div id="slider-range2"></div>
+        <p>
+            <input type="text" id="amount2" class="range-input" readonly style="border:0; color:#f6931f; font-weight:bold;">
+          </p>
+      </div>
+        <div class="price-range location-ac">
+        <h4><span class="icon icon-params"></span>&nbsp;&nbsp;VENUES</h4>
+        <ul>
+            <li><a href="javascript:void(0)">Dubai Mall</a></li>
+            <li><a href="javascript:void(0)">Marina</a></li>
+            <li><a href="javascript:void(0)">Jumeirah</a></li>
+            <li><a href="javascript:void(0)">Mercato Shopping Mall</a></li>
+            <li><a href="javascript:void(0)">Burdubai</a></li>
+            <li><a href="javascript:void(0)">More</a></li>
+          </ul>
+      </div>
+        <div class="price-range trending-ac">
+        <h4><span class="hash icon">#</span>&nbsp;&nbsp;HASHTAGS</h4>
+        <ul>
+            <li><a href="javascript:void(0)">#DUBAIADVENTURES</a></li>
+            <li><a href="javascript:void(0)">#SALE</a></li>
+            <li><a href="javascript:void(0)">#ABUDHABI</a></li>
+            <li><a href="javascript:void(0)">#PETS</a></li>
+            <li><a href="javascript:void(0)">#FREE</a></li>
+            <li><a href="javascript:void(0)">#TOYS</a></li>
+            <li><a href="javascript:void(0)">#BESTSUSHI</a></li>
+            <li><a href="javascript:void(0)">#DRAGONMART</a></li>
+            <li><a href="javascript:void(0)">#HITMOVIES</a></li>
+            <li><a href="javascript:void(0)">#KILLERWORKOUT</a></li>
+            <li><a href="javascript:void(0)">#TAXI</a></li>
+            <li><a href="javascript:void(0)">#BOOKS</a></li>
+            <li><a href="javascript:void(0)">#PETS</a></li>
+          </ul>
+      </div>
+        <div class="price-range location-ac">
+        <h4><span class="icon icon-params"></span>&nbsp;&nbsp;HOW YOU FEELING</h4>
+        <ul>
+            <li><a href="javascript:void(0)">Happy</a></li>
+            <li><a href="javascript:void(0)">Adventurous</a></li>
+            <li><a href="javascript:void(0)">Hungry</a></li>
+            <li><a href="javascript:void(0)">Relaxing</a></li>
+            <li><a href="javascript:void(0)">Lazy</a></li>
+            <li><a href="javascript:void(0)">More</a></li>
+          </ul>
+      </div>
+        <div class="advertise"> <a href="#" class="adv-bg">Advertise Here</a> <img src="img/ad-1.png"> </div>
+      </div>
+  </div>
+    <!--side-menu-end-->
+   
+    <div class="container clearfix">
+    <div class="list-page-one pull-right">
+        <div class="food-drink clearfix">
+        <div class="offers-no clearfix pull-left">
+            <h4 class="pull-left">Displaying 150 offers for <span>‘Food & Drinks’.</span></h4>
+            <a href="#" class="pull-right"><i class="fa fa-plus"></i>&nbsp;&nbsp;&nbsp;SAVE SEARCH TO YOUR FEED</a> </div>
+        <div class="map-close clearfix pull-right"> <a href="#"><img src="img/map-ico.png">OFFERS ON MAP<span class="pull-right"><img src="img/map-up-angle.png"></span></a> </div>
+      </div>
+        <div class="advertise-2">Advertise here. &nbsp; <a href="#">Contact us Now!</a></div>
+         <div class="tabs-off">
+        	<div class="tb-btn-in">
+        	<a href="javascript:void(0)" class="active-btn">Offers</a><a href="javascript:void(0)">Articles</a>
+            </div>
+        </div>
+        <div class="prodect-collection clearfix" id="portfolio">
+        <div class="left-side-product pull-left">
+            <div class="first-pro  filter-3 common-div on-off">
+            <div class="pro-img-one"> <img src="img/image-1.jpg">
+                <div class="btn-abs clearfix">
+                <button type="button" class="btn btn-default btn-off pull-left">50% OFF</button>
+                <button type="button" class="btn btn-default btn-like pull-right"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+              </div>
+                <div class="hover-div">
+                <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+              </div>
+              </div>
+            <div class="pro-detail">
+                <p>Collection of exotic breads 50% OFF. Clearing out quick!</p>
+                <h2>20 AED</h2>
+                <ul>
+                <li><a href="#">#DUBAIFOOD</a></li>
+                <li><a href="#">#SALE</a></li>
+                <li><a href="#">#STARBUCKS</a></li>
+                <li><a href="#">#FOOD</a></li>
+              </ul>
+              </div>
+            <div class="raiting clearfix">
+                <div class="raiting-div pull-left">
+                <p>QUALITY (16 VOTES)</p>
+                <ul class="diff-color">
+                    <li class="d-red"></li>
+                    <li class="n-red"></li>
+                    <li class="d-orange"></li>
+                    <li class="n-orange"></li>
+                    <li class="l-orange"></li>
+                    <li class="n-yellow"></li>
+                    <li class="l-green"></li>
+                    <li class="n-green"></li>
+                    <li class="d-green"></li>
+                    <li class="n-white"></li>
+                  </ul>
+                <a href="#" class="r-btn">9.0</a> </div>
+                <div class="raiting-div r-right pull-right">
+                <p>VALUE (16 VOTES)</p>
+                <ul class="diff-color">
+                    <li class="d-red"></li>
+                    <li class="n-red"></li>
+                    <li class="d-orange"></li>
+                    <li class="n-orange"></li>
+                    <li class="l-orange"></li>
+                    <li class="n-yellow"></li>
+                    <li class="l-green"></li>
+                    <li class="n-green"></li>
+                    <li class="d-green"></li>
+                    <li class="n-white"></li>
+                  </ul>
+                <a href="#" class="r-btn">9.0</a> </div>
+              </div>
+            <div class="s-coffee clearfix">
+                <div class="s-coffee-left pull-left"> <span><img src="img/page-logo-0.jpg"></span>
+                <div class="logo-detail">
+                    <h5>STARBUCKS COFFEE</h5>
+                    <p><img src="img/map-marker.png">Mercato Shopping Mall , Dubai</p>
+                  </div>
+              </div>
+                <div class="s-coffee-right pull-right"> <a href="#" class="offer-ico" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a href="#" class="view-offer">VIEW OFFER</a> </div>
+              </div>
+          </div>
+            <div class="product-rows clearfix">
+            <div class="outer-side pull-left  filter-3 common-div filter-2 filter-4 on-off">
+                <div class="left-p-row">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-2.jpg">
+                    <div class="btn-abs clearfix">
+                    <button type="button" class="btn btn-default btn-off pull-left">50% OFF</button>
+                    <button type="button" class="btn btn-default btn-like pull-right"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                  </div>
+                    <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+                  </div>
+                <div class="pro-detail pro-detail-two"> <a href="#" class="expire-btn">EXPIRES ON: 13th SEP,  2015</a>
+                    <p>Sushi at Unbelievable Prices at Ming Tsu Restaurant!</p>
+                    <h2>20 AED</h2>
+                    <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                    <li><a href="#">#DRAGONMART</a></li>
+                    <li><a href="#">#HITMOVIES</a></li>
+                    <li><a href="#">#TOYS</a></li>
+                    <li><a href="#">#BESTSUSHI</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">##KILLERWORKOUT</a></li>
+                  </ul>
+                  </div>
+                <div class="raiting">
+                    <div class="raiting-div rating-div-two">
+                    <p>QUALITY (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">9.0</a> </div>
+                    <div class="raiting-div rating-div-two-right">
+                    <p>VALUE (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">9.0</a> </div>
+                  </div>
+                <div class="s-coffee s-cofee-two">
+                    <div class="s-coffee-left s-cof-lft"> <span><img src="img/page-logo-1.jpg"></span>
+                    <div class="logo-detail">
+                        <h5>MING TSU</h5>
+                        <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                      </div>
+                  </div>
+                    <div class="s-coffee-right"> <a href="#" class="offer-ico" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a href="#" class="view-offer">VIEW OFFER</a> </div>
+                  </div>
+              </div>
+                <!--row left-close--> 
+              </div>
+            <div class="outer-side outer-side-2 pull-right  filter-4 common-div on-off">
+                <div class="left-p-row right-p-row">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-3.jpg">
+                    <div class="btn-abs clearfix">
+                    <button type="button" class="btn btn-default btn-off pull-left">50% OFF</button>
+                    <button type="button" class="btn btn-default btn-like pull-right"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                  </div>
+                    <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+                  </div>
+                <div class="pro-detail pro-detail-two pd-three">
+                    <p>New Italian Restaurant Le-Apetit Launch Discount</p>
+                    <h2>40 AED</h2>
+                    <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                  </ul>
+                  </div>
+                <div class="raiting">
+                    <div class="raiting-div rating-div-two">
+                    <p>QUALITY (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">9.0</a> </div>
+                    <div class="raiting-div rating-div-two-right">
+                    <p>VALUE (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">9.0</a> </div>
+                  </div>
+                <div class="s-coffee s-cofee-two">
+                    <div class="s-coffee-left s-cof-lft"> <span><img src="img/user-1.jpg"></span>
+                    <div class="logo-detail">
+                        <h5>MING TSU</h5>
+                        <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                      </div>
+                  </div>
+                    <div class="s-coffee-right"> <a href="#" class="offer-ico" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a href="#" class="view-offer">VIEW OFFER</a> </div>
+                  </div>
+              </div>
+                <!--row-right close-->
+                
+                <div class="xeon-add  filter-4" > <a href="#" class="adv-bg">Advertise Here</a> <img src="img/ad-3.png"> </div>
+              </div>
+            <div class="outer-side pull-left  filter-5 common-div on-off">
+                <div class="left-p-row">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-4.jpg">
+                    <div class="btn-abs clearfix">
+                    <button class="btn btn-default btn-off pull-left" type="button">50% OFF</button>
+                    <button class="btn btn-default btn-like pull-right" type="button"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                  </div>
+                    <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+                  </div>
+                <div class="pro-detail pro-detail-two">
+                    <p>Breakfast for two at The Little Eatery</p>
+                    <h2>50 AED</h2>
+                    <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                    <li><a href="#">#STARBUCKS</a></li>
+                  </ul>
+                  </div>
+                <div class="raiting">
+                    <div class="raiting-div rating-div-two">
+                    <p>QUALITY (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                    <div class="raiting-div rating-div-two-right">
+                    <p>VALUE (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                  </div>
+                <div class="s-coffee s-cofee-two">
+                    <div class="s-coffee-left s-cof-lft"> <span><img src="img/page-logo-2.jpg"></span>
+                    <div class="logo-detail">
+                        <h5>LE FRENCH BAKERY</h5>
+                        <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                      </div>
+                  </div>
+                    <div class="s-coffee-right"> <a class="offer-ico" href="#" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a class="view-offer" href="#">VIEW OFFER</a> </div>
+                  </div>
+              </div>
+              </div>
+            <div class="xeon-add pull-right  filter-5 common-div "> <a href="#" class="adv-bg">Advertise Here</a> <img src="img/ad-4.png"> </div>
+            <div class="outer-side pull-right  filter-2 common-div on-off">
+                <div class="left-p-row right-p-row">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-5.jpg">
+                    <div class="btn-abs clearfix">
+                    <button class="btn btn-default btn-off pull-left" type="button">50% OFF</button>
+                    <button class="btn btn-default btn-like pull-right" type="button"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                  </div>
+                    <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+                  </div>
+                <div class="pro-detail pro-detail-two">
+                    <p>Collection of exotic breads 50% OFF. Clearing out quick!</p>
+                    <h2>50 AED</h2>
+                    <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                  </ul>
+                  </div>
+                <div class="raiting">
+                    <div class="raiting-div rating-div-two">
+                    <p>QUALITY (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                    <div class="raiting-div rating-div-two-right">
+                    <p>VALUE (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                  </div>
+                <div class="s-coffee s-cofee-two">
+                    <div class="s-coffee-left s-cof-lft"> <span><img src="img/page-logo-2.jpg"></span>
+                    <div class="logo-detail">
+                        <h5>LE FRENCH BAKERY</h5>
+                        <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                      </div>
+                  </div>
+                    <div class="s-coffee-right"> <a class="offer-ico" href="#" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a class="view-offer" href="#">VIEW OFFER</a> </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+            <div class="first-pro  filter-1 common-div on-off">
+            <div class="pro-img-one"> <img src="img/image-1.jpg">
+                <div class="btn-abs clearfix">
+                <button class="btn btn-default btn-off pull-left" type="button">50% OFF</button>
+                <button class="btn btn-default btn-like pull-right" type="button"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+              </div>
+                <div class="hover-div">
+                <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+              </div>
+              </div>
+            <div class="pro-detail">
+                <p>Collection of exotic breads 50% OFF. Clearing out quick!</p>
+                <h2>20 AED</h2>
+                <ul>
+                <li><a href="#">#DUBAIFOOD</a></li>
+                <li><a href="#">#SALE</a></li>
+                <li><a href="#">#STARBUCKS</a></li>
+                <li><a href="#">#FOOD</a></li>
+              </ul>
+              </div>
+            <div class="raiting clearfix">
+                <div class="raiting-div pull-left">
+                <p>QUALITY (16 VOTES)</p>
+                <ul class="diff-color">
+                    <li class="d-red"></li>
+                    <li class="n-red"></li>
+                    <li class="d-orange"></li>
+                    <li class="n-orange"></li>
+                    <li class="l-orange"></li>
+                    <li class="n-yellow"></li>
+                    <li class="l-green"></li>
+                    <li class="n-green"></li>
+                    <li class="d-green"></li>
+                    <li class="n-white"></li>
+                  </ul>
+                <a class="r-btn" href="#">9.0</a> </div>
+                <div class="raiting-div r-right pull-right">
+                <p>VALUE (16 VOTES)</p>
+                <ul class="diff-color">
+                    <li class="d-red"></li>
+                    <li class="n-red"></li>
+                    <li class="d-orange"></li>
+                    <li class="n-orange"></li>
+                    <li class="l-orange"></li>
+                    <li class="n-yellow"></li>
+                    <li class="l-green"></li>
+                    <li class="n-green"></li>
+                    <li class="d-green"></li>
+                    <li class="n-white"></li>
+                  </ul>
+                <a class="r-btn" href="#">9.0</a> </div>
+              </div>
+            <div class="s-coffee clearfix">
+                <div class="s-coffee-left pull-left"> <span><img src="img/page-logo-0.jpg"></span>
+                <div class="logo-detail">
+                    <h5>STARBUCKS COFFEE</h5>
+                    <p><img src="img/map-marker.png">Mercato Shopping Mall , Dubai</p>
+                  </div>
+              </div>
+                <div class="s-coffee-right pull-right"> <a class="offer-ico" href="#" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a class="view-offer" href="#">VIEW OFFER</a> </div>
+              </div>
+          </div>
+          </div>
+        <div class="right-side-product pull-right">
+            <div class="outer-side outer-side-2 pull-right">
+            <div class="left-p-row right-p-row  filter-1 common-div not-off">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-4.jpg">
+				 <div class="btn-abs clearfix">
+                      <button class="btn btn-default btn-off pull-left" type="button">50% OFF</button>
+                      <button class="btn btn-default btn-like pull-right" type="button"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                    </div>
+                <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+              </div>
+                <div class="pro-detail pro-detail-two">
+                <p>Breakfast for two at The Little Eatery</p>
+                <div class="info-div"> Cheesecake tiramisu dragée gummies donut cotton candy ice cream I love halvah. Gummies croissant I love gummies gummies. Marshmallow I love gummies sugar plum jelly-... </div>
+                <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                    <li><a href="#">#STARBUCKS</a></li>
+                  </ul>
+              </div>
+                <hr>
+                <div class="s-coffee s-cofee-two">
+                <div class="s-coffee-left s-cof-lft"> <span><img src="img/page-logo-2.jpg"></span>
+                    <div class="logo-detail">
+                    <h5>LE FRENCH BAKERY</h5>
+                    <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                  </div>
+                  </div>
+                <div class="s-coffee-right"> <a href="#" class="view-offer read-more">Read More</a> </div>
+              </div>
+              </div>
+            <!--row-right close-->
+            
+            <div class="xeon-add  filter-2 common-div"> <a href="#" class="adv-bg">Advertise Here</a> <img src="img/ad-4.png"> </div>
+            <div class="left-p-row right-p-row  filter-4 common-div not-off">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-6.jpg">
+                <div class="btn-abs clearfix">
+                    <button type="button" class="btn btn-default btn-like pull-right"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                  </div>
+                <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+              </div>
+                <div class="pro-detail pro-detail-two new-div">
+                <p>Breakfast for two at The Little Eatery</p>
+                <h2>50 AED</h2>
+                <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                    <li><a href="#">#STARBUCKS</a></li>
+                  </ul>
+              </div>
+                <div class="s-coffee s-cofee-two">
+                <div class="s-coffee-left s-cof-lft new1-div"> <span><img src="img/page-logo-2.jpg"></span>
+                    <div class="logo-detail">
+                    <h5>LE FRENCH BAKERY</h5>
+                    <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                  </div>
+                  </div>
+              </div>
+              </div>
+            <div class="outer-side pull-left  filter-3 common-div on-off">
+                <div class="left-p-row">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-2.jpg">
+                    <div class="btn-abs clearfix">
+                    <button class="btn btn-default btn-off pull-left" type="button">50% OFF</button>
+                    <button class="btn btn-default btn-like pull-right" type="button"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                  </div>
+                    <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+                  </div>
+                <div class="pro-detail pro-detail-two"> <a class="expire-btn" href="#">EXPIRES ON: 13th SEP,  2015</a>
+                    <p>Sushi at Unbelievable Prices at Ming Tsu Restaurant!</p>
+                    <h2>20 AED</h2>
+                    <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                    <li><a href="#">#DRAGONMART</a></li>
+                    <li><a href="#">#HITMOVIES</a></li>
+                    <li><a href="#">#TOYS</a></li>
+                    <li><a href="#">#BESTSUSHI</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">##KILLERWORKOUT</a></li>
+                  </ul>
+                  </div>
+                <div class="raiting">
+                    <div class="raiting-div rating-div-two">
+                    <p>QUALITY (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                    <div class="raiting-div rating-div-two-right">
+                    <p>VALUE (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                  </div>
+                <div class="s-coffee s-cofee-two">
+                    <div class="s-coffee-left s-cof-lft"> <span><img src="img/page-logo-1.jpg"></span>
+                    <div class="logo-detail">
+                        <h5>MING TSU</h5>
+                        <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                      </div>
+                  </div>
+                    <div class="s-coffee-right"> <a class="offer-ico" href="#" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a class="view-offer" href="#">VIEW OFFER</a> </div>
+                  </div>
+              </div>
+                <!--row left-close--> 
+              </div>
+            <div class="outer-side pull-left  filter-5 common-div not-off">
+                <div class="left-p-row">
+                <div class="pro-img-one pro-img-two"> <img src="img/image-3.jpg">
+                    <div class="btn-abs clearfix">
+                   
+                    <button class="btn btn-default btn-like pull-right" type="button"><i class="fa fa-heart"></i>&nbsp;&nbsp;20 <span>Likes</span></button>
+                  </div>
+                    <div class="hover-div">
+                    <div class="lft-hvr-side pull-left"> <a href="javascript:void(0)"><i class="fa fa-star"></i>&nbsp;&nbsp;Add to Fav</a> </div>
+                    <div class="rht-hvr-side pull-right"> <a href="#"><img src="img/plus-ico.png"></a> <a href="#"><img src="img/vendza-v.png"></a> <a href="#" class=" share-box arrow_box">200</a> <a href="#">Share</a> </div>
+                  </div>
+                  </div>
+                <div class="pro-detail pro-detail-two pd-three">
+                    <p>New Italian Restaurant Le-Apetit Launch Discount</p>
+                    <h2>40 AED</h2>
+                    <ul>
+                    <li><a href="#">#DUBAIFOOD</a></li>
+                    <li><a href="#">#SALE</a></li>
+                    <li><a href="#">#FOOD</a></li>
+                  </ul>
+                  </div>
+                <div class="raiting">
+                    <div class="raiting-div rating-div-two">
+                    <p>QUALITY (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                    <div class="raiting-div rating-div-two-right">
+                    <p>VALUE (16 VOTES)</p>
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a class="r-btn" href="#">9.0</a> </div>
+                  </div>
+                <div class="s-coffee s-cofee-two">
+                    <div class="s-coffee-left s-cof-lft"> <span><img src="img/user-1.jpg"></span>
+                    <div class="logo-detail">
+                        <h5>MING TSU</h5>
+                        <p><img src="img/map-marker.png">Wafi Mall , Dubai</p>
+                      </div>
+                  </div>
+                    <div class="s-coffee-right"> <a class="offer-ico" href="#" data-toggle="modal" data-target="#myModal"><img src="img/eye-ico.png"></a> <a class="view-offer" href="#">VIEW OFFER</a> </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+</div>
+<footer class="ft-bg">
+    <div class="container">
+    <div class="row ft-padding clearfix">
+        <div class="col-sm-4">
+        <div class="footer-left"> <a href="#"><img src="img/ft-logo.png"></a>
+            <ul>
+            <li><a href="#">NEWSROOM</a></li>
+            <li><a href="#">ADVERTISE WITH US</a></li>
+          </ul>
+          </div>
+      </div>
+        <div class="col-sm-3">
+        <div class="footer-middle">
+            <h5>FOLLOW US</h5>
+            <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+          </div>
+      </div>
+        <div class="col-sm-5">
+        <div class="footer-middle footer-right pull-right">
+            <h5>DOWNLOAD THE APP</h5>
+            <ul>
+            <li><a href="#"><img src="img/ft-1.png"></a></li>
+            <li><a href="#"><img src="img/ft-2.png"></a></li>
+            <li><a href="#"><img src="img/ft-3.png"></a></li>
+          </ul>
+          </div>
+      </div>
+      </div>
+    <div class="copyrights clearfix">
+        <div class="copy-left pull-left">
+        <h5>© 2015 Vendanza, Inc. All Rights Reserved.</h5>
+      </div>
+        <div class="copy-right pull-right">
+        <ul>
+            <li><a href="#">Terms & Conditions </a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+      </div>
+      </div>
+  </div>
+  </footer>
+
+<!--popup-->
+<div class="modal fade view-popup" id="myModal" role="dialog">
+    <div class="modal-dialog"> 
+    
+    <!-- Modal content-->
+    <div class="modal-content">
+        <button type="button" class="close mod-close-btn" data-dismiss="modal"><i class="fa fa-times"></i></button>
+        <div class="modal-body modl-body">
+        <div class="slider-pp clearfix">
+            <div class="slider-left pull-left">
+            <div id='carousel-custom' class='carousel slide' data-ride='carousel'>
+                <div class='carousel-outer'> 
+                <!-- Wrapper for slides -->
+                <div class='carousel-inner'>
+                    <div class='item active'> <img src="img/slider-main.jpg"/> </div>
+                    <div class='item'> <img src="img/slider-main-2.jpg"/> </div>
+                    <div class='item'> <img src="img/slider-main-3.jpg"/> </div>
+                  </div>
+                
+                <!-- Controls --> 
+                <a class='left carousel-control' href='#carousel-custom' data-slide='prev'> <span class='glyphicon glyphicon-chevron-left'></span> </a> <a class='right carousel-control' href='#carousel-custom' data-slide='next'> <span class='glyphicon glyphicon-chevron-right'></span> </a> </div>
+                
+                <!-- Indicators -->
+                <ol class='carousel-indicators mCustomScrollbar clearfix'>
+                <li data-target='#carousel-custom' data-slide-to='0' class='active'> <img src="img/slider-main.jpg"/></li>
+                <li data-target='#carousel-custom' data-slide-to='1'> <img src="img/slider-main-2.jpg"/></li>
+                <li data-target='#carousel-custom' data-slide-to='2'> <img src="img/slider-main-3.jpg" /></li>
+              </ol>
+              </div>
+          </div>
+            <div class="dish-rev pull-left">
+            <div class="rev-us">
+                <div class="user-im"> <img src="img/user-im-1.jpg"> </div>
+                <div class="us-name">ANDRE N</div>
+                <div class="mn-con">
+                <h5>FOOD & DRINKS</h5>
+                <h3>Dinner for two at Indigo  Delicatessen. </h3>
+                <h2>20 AED (50% OFF)</h2>
+                <div class="raiting-div rating-div-two clearfix">
+                    <p>QUALITY <span>(28 VOTES)</span></p>
+                    <div class="pull-right">
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">8.0</a> </div>
+                  </div>
+                <div class="raiting-div rating-div-two clearfix">
+                    <p>VALUE <span>(28 VOTES)</span></p>
+                    <div class="pull-right">
+                    <ul class="diff-color">
+                        <li class="d-red"></li>
+                        <li class="n-red"></li>
+                        <li class="d-orange"></li>
+                        <li class="n-orange"></li>
+                        <li class="l-orange"></li>
+                        <li class="n-yellow"></li>
+                        <li class="l-green"></li>
+                        <li class="n-green"></li>
+                        <li class="d-green"></li>
+                        <li class="n-white"></li>
+                      </ul>
+                    <a href="#" class="r-btn">9.0</a> </div>
+                    <div class="summ">
+                    <h5>SUMMARY</h5>
+                    <p>5 courses of artfully plated New American cuisine, which invoke the flavors of Maine and the Michelin-starred skills of Chef Ryan McCaskey.</p>
+                  </div>
+                    <div class="two-btn-gr"> <a href="#" class="gt-rv">GET THIS OFFER</a> <a href="#" class="rate-btn"><i class="fa fa-star"></i></a> </div>
+                  </div>
+              </div>
+              </div>
+          </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+
+<!--popup--> 
+
+<script>
+   $(document).ready(function(){
+    $(".side-bar").click(function(){
+        $(this).toggleClass("face-book-2");
+    });
+});
+   
+   </script> 
+<script id="result-template" type="text/x-handlebars-template">
+      <div class="ProfileCard u-cf">
+        <img class="ProfileCard-avatar" src="{{profile_image_url_https}}">
+
+        <div class="ProfileCard-details">
+          <div class="ProfileCard-realName">{{name}}</div>
+          <div class="ProfileCard-screenName">@{{screen_name}}</div>
+          <div class="ProfileCard-description">{{description}}</div>
+        </div>
+
+       
+      </div>
+    </script> 
+<script id="empty-template" type="text/x-handlebars-template">
+      <div class="EmptyMessage">Your search turned up 0 results. This most likely means the backend is down, yikes!</div>
+    </script> 
+<script src="https://twitter.github.io/typeahead.js/js/handlebars.js"></script> 
+<script src="https://twitter.github.io/typeahead.js/js/jquery.xdomainrequest.min.js"></script> 
+<script src="https://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script> 
+<script src="https://twitter.github.io/typeahead.js/js/main.js"></script>
+
+</body>
+</html>

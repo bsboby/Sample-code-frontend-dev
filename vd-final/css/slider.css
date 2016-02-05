@@ -1,0 +1,416 @@
+/* ==========================================================================
+   Start of base Webflow CSS - If you're looking for some ultra-clean CSS, skip the boilerplate and see the unminified code below.
+   ========================================================================== */
+
+.w-slider {
+	position: relative;
+	text-align: center;
+	clear: both;
+}
+.w-slider-mask {
+	position:relative;
+	display: block;
+	overflow: hidden;
+	z-index: 1;
+	left: 0;
+	right: 0;
+	height: 100%;
+	white-space: nowrap
+}
+.w-slide {
+	position: relative;
+    display: inline-block;
+	width: 100%;
+}
+
+.w-inner{ position:absolute; top:0; left:0; right:0; bottom:0;}
+
+
+
+.w-slider-nav {
+	position: absolute;
+	z-index: 2;
+	top: auto;
+	right: 0;
+	bottom: 30px;
+	left: 0;
+	margin: auto;
+	padding-top: 10px;
+	height: 40px;
+	text-align: center;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0)
+}
+.w-slider-nav.w-round>div {
+	-webkit-border-radius: 100%;
+	-webkit-background-clip: padding-box;
+	-moz-border-radius: 100%;
+	-moz-background-clip: padding;
+	border-radius: 100%;
+	background-clip: padding-box
+}
+.w-slider-nav.w-num>div {
+	width: auto;
+	height: auto;
+	padding: .2em .5em;
+	font-size: inherit;
+	line-height: inherit
+}
+.w-slider-nav.w-shadow>div {
+	-webkit-box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
+	-moz-box-shadow: 0 0 3px rgba(51, 51, 51, 0.4);
+	box-shadow: 0 0 3px rgba(51, 51, 51, 0.4)
+}
+.w-slider-nav-invert {
+	color: #fff
+}
+.w-slider-nav-invert>div {
+	background-color: rgba(34,34,34,0.4)
+}
+.w-slider-nav-invert>div.w-active {
+	background-color: #222
+}
+.w-slider-dot {
+	position: relative;
+	display: inline-block;
+	width:10px;
+	height: 10px;
+	background:none;
+	border:2px solid #FFF;
+	cursor: pointer; 
+	margin: 0 3px .5em;
+	-webkit-transition: background-color 100ms, color 100ms;
+	-moz-transition: background-color 100ms, color 100ms;
+	-o-transition: background-color 100ms, color 100ms;
+	transition: background-color 100ms, color 100ms
+}
+.w-slider-dot.w-active {
+	background-color: #fff;
+	border:none;
+}
+.w-slider-arrow-left, .w-slider-arrow-right {
+	position: absolute;
+	width: 150px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	cursor: pointer;
+	overflow: hidden;
+	color: white;
+	font-size: 40px;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	tap-highlight-color: rgba(0,0,0,0);
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none
+}
+.w-slider-arrow-left [class^="w-icon-"], .w-slider-arrow-right [class^="w-icon-"], .w-slider-arrow-left [class*=" w-icon-"], .w-slider-arrow-right [class*=" w-icon-"] {
+	position: absolute
+}
+.w-slider-arrow-left {
+	z-index: 3;
+	right: auto
+}
+.w-slider-arrow-right {
+	z-index: 4;
+	left: auto
+}
+.w-icon-slider-left, .w-icon-slider-right {
+	top: 0;
+	right: 0;
+	bottom: 23px;
+	left: 0;
+	margin: auto;
+	width: 1em;
+	height: 1em
+}
+
+
+
+
+.breadcrumb-wrapper {
+	margin-bottom: 10px;
+	padding-left: 2px;
+}
+.grid-icon {
+	margin-right: 10px;
+	float: left;
+}
+
+.crumb-text {
+	float: left;
+	color: rgba(255, 255, 255, 0.49);
+	font-size: 16px;
+	line-height: 14px;
+	text-decoration: none;
+}
+.crumb-text:hover {
+	opacity: 0.86;
+}
+
+
+
+.special-note.yellow {
+	background-color: rgba(255, 217, 0, 0.36);
+}
+.content-col {
+	padding-right: 20px;
+}
+.sidebar-col {
+	display: block;
+	padding-right: 0px;
+	padding-left: 20px;
+}
+
+.step-number {
+	display: inline-block;
+	min-width: 47px;
+	margin-top: 50px;
+	margin-right: 11px;
+	margin-bottom: 11px;
+	padding: 13px 17px 12px;
+	float: none;
+	clear: none;
+	border-radius: 2px;
+	background-color: #525252;
+	color: #ededed;
+	font-size: 19px;
+	line-height: 19px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.slider {
+	margin-bottom: 20px;
+	padding: 0px;
+	background-color: #33a7e1;
+}
+
+
+
+
+
+.slider-heading {
+	margin-bottom: 18px;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	text-shadow: #1172b8 0px 2px 1px;
+}
+.slider-heading.no-shadow {
+	font-family: proxima-nova, sans-serif;
+	font-size: 55px;
+	font-style: normal;
+	text-transform: uppercase;
+	text-shadow: none;
+}
+.slider-text {
+	color: white;
+	text-align: center;
+}
+.slider-text.center {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.slider-text.large {
+	font-size: 26px;
+	line-height: 30px;
+}
+.slider-nav {
+	color: black;
+	font-size: 10px;
+	line-height: 12px;
+}
+.arrow-guide {
+	margin-left: 0px;
+	padding-top: 25px;
+	float: right;
+}
+.slider-icon {
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease;
+	color: #1a74a1;
+	font-size: 30px;
+}
+.slider-icon:hover {
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	color: #004c73;
+}
+.slider-icon.right {
+	margin-left: 40px;
+}
+.slider-icon.right:hover {
+	-webkit-transform: scale(1.1) translate(3px, 0px);
+	-ms-transform: scale(1.1) translate(3px, 0px);
+	transform: scale(1.1) translate(3px, 0px);
+}
+.slider-icon.left {
+	margin-right: 40px;
+}
+.slider-icon.left:hover {
+	-webkit-transform: scale(1.1) translate(-3px, 0px);
+	-ms-transform: scale(1.1) translate(-3px, 0px);
+	transform: scale(1.1) translate(-3px, 0px);
+}
+.slider-icon.white {
+	color: white;
+}
+
+
+
+
+
+
+
+
+.animation-slider {
+	/*height: 725px;*/
+
+
+}
+
+.slide-1-image {
+	background-image: url(http://uploads.webflow.com/559c4f1d0354a49757d5cf0e/533cdf9406af5a9e40000851_succulentsraindrops.jpg);
+	background-size: cover;
+}
+.slide-2-image {
+	background-image: url(http://uploads.webflow.com/559c4f1d0354a49757d5cf0e/533cdfb231dd1b146c0009b1_yellowrose.jpg);
+	background-size: cover;
+}
+.slide-3-image {
+	background-image: url(http://uploads.webflow.com/559c4f1d0354a49757d5cf0e/533cdfc031dd1b146c0009b4_waterdroplets.jpg);
+	background-position: 50% 50%;
+	background-size: cover;
+}
+.custom-arrow.right {
+	width: 50px;
+	height: 50px;
+	padding-top: 8px;
+	border: 2px solid #33a7e1;
+	border-radius: 50px;
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease;
+	color: #33a7e1;
+	font-size: 30px;
+}
+.custom-arrow.right:hover {
+	width: 50px;
+	height: 50px;
+	padding-bottom: 0px;
+	border: 2px solid #33a7e1;
+	border-radius: 50px;
+	background-color: #33a7e1;
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	color: white;
+}
+.custom-arrow.left {
+	width: 50px;
+	height: 50px;
+	padding-top: 9px;
+	border: 2px solid #db1c5d;
+	border-radius: 40px;
+	-webkit-transition: all 500ms ease;
+	transition: all 500ms ease;
+	color: #db1c5d;
+	font-size: 30px;
+}
+.custom-arrow.left:hover {
+	border-color: #db1c5d;
+	background-color: #db1c5d;
+	-webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	color: white;
+}
+.arrow-test-slider {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #dbdbdb;
+}
+.arrow-test.slide1 {
+	padding: 66px 120px 90px;
+	background-color: #333;
+}
+.arrow-test.slide2 {
+	padding: 135px 120px;
+	background-color: #333;
+}
+.arrow-panel.dark {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+.slider-components {
+	padding: 40px 85px;
+}
+.slider-components.arrows {
+	padding-right: 45px;
+	padding-left: 45px;
+}
+.background-image-slider {
+	margin-bottom: 30px;
+}
+._33 {
+	width: 33.33333%;
+}
+.multiple-slides {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.arrow-icon {
+	margin-left: 50px;
+}
+.arrow-icon.right {
+	margin-right: 0px;
+	margin-left: 40px;
+}
+.arrow-icon.right.pink {
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease;
+	color: #db1c5d;
+	font-size: 35px;
+}
+.arrow-icon.right.pink:hover {
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.arrow-icon.left {
+	margin-left: 0px;
+}
+.arrow-icon.left.pink {
+	-webkit-transition: all 400ms ease;
+	transition: all 400ms ease;
+	color: #db1c5d;
+	font-size: 35px;
+}
+.arrow-icon.left.pink:hover {
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+.multiple-slides-slider {
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	background-color: transparent;
+}
+.white-wrapper {
+	min-height: 200px;
+	min-width: 100px;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 82px 10px 10px;
+	border: 2px solid white;
+	background-color: #33a7e1;
+}
+
+
+
