@@ -1,0 +1,132 @@
+.rm_wrap{
+	width:740px;
+}
+
+.rm_options{display:none;
+	border:1px solid #D1E5EE;
+	border-bottom:0;
+	background:#EFF8FF;
+}
+
+.rm_opts label{
+	font-size:12px;
+	font-weight:700;
+	width:200px;
+	display:block;
+	float:left;	
+}
+.rm_input {
+	padding:30px 10px;
+	border-bottom:1px solid #D1E5EE;
+	border-top:1px solid #fff;
+}
+.rm_opts small{
+	display:block;
+	float:right;
+	width:200px;
+	color:#999;
+}
+.rm_opts input[type="text"], .rm_opts select{
+	width:280px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1em;
+	background:#EFF8FF;
+}
+.rm_input input:focus, .rm_input textarea:focus{
+		background:#fff;
+}
+.rm_input textarea{
+	width:280px;
+	height:175px;
+	font-size:12px;
+	padding:4px;
+	color:#333;
+	line-height:1.5em;
+	background:#EFF8FF;
+}
+.rm_title h3 {
+    color: #232323;
+    cursor: pointer;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    margin: 0;
+    padding: 15px 0 7px 16px;
+    text-transform:capitalize;
+    width: 92%;
+    font-family:sans-serif;
+}
+.rm_title {
+    background: none repeat scroll 0 0 #D1E5EE;
+    border-bottom: 1px solid #D1E5EE;
+    cursor: pointer;
+    padding: 0;
+}
+
+.rm_title span.img{
+	margin:4px 0px 0 0px;
+	width:33px;
+	height:32px;	
+	background:url('images/max.png') no-repeat 0 0;
+	float:left;
+	border-radius:6px;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	}
+
+.active .rm_title span.img{
+	margin:4px 0 0 0;
+	width:33px;
+	height:34px;	
+	background:url('images/min.png') no-repeat  0 0px;
+	float:left;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	}
+		
+
+
+.rm_input.rm_upload .image{
+    border: 1px solid #CCCCCC;
+    margin-top: 7px;
+    padding: 2px;
+	display:block;
+}
+.rm_title span.submit{
+	display:block;
+	float:right;
+	margin:0;
+	padding:0;
+	width:15%;
+	padding:14px 0;
+}
+
+.clearfix{
+	clear:both;
+}
+
+.rm_table th, .rm_table td{
+	border:1px solid #bbb;
+	padding:10px;
+	text-align:center;
+}
+
+.rm_table th, .rm_table td.feature{
+	border-color:#888;
+	}
+.rm_input .desc {
+    color: #999999;
+    display: block;
+    float: right;
+    font-size: 11px;
+    margin-top: 20px;
+    width: 134px;
+}
+.rm_opts .reset_button{margin-bottom: 15px; padding: 0; text-align: left; width:340px; border-right:0px;}
+.rm_opts .bottom_save{margin-bottom: 15px; padding: 0; text-align: right; width:350px; float:right; border-left:0px;}
+.rm_opts .top_save{/*background: none repeat scroll 0 0 #EEEEEE; border: 1px solid #DDDDDD;*/ margin-bottom: 15px;/* padding: 12px;*/ text-align: right; float:right;}
+.rm_opts .clear{clear:both;}
